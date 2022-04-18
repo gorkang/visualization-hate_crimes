@@ -1,5 +1,13 @@
 setup_project <- function() {
   
+  # Save surface plots with kaleido (python) 
+    # install.packages('reticulate')
+    # reticulate::install_miniconda()
+    # reticulate::conda_install('r-reticulate', 'python-kaleido')
+    # reticulate::conda_install('r-reticulate', 'plotly', channel = 'plotly')
+    # reticulate::use_miniconda('r-reticulate')
+    # SAVE # kaleido(PLOT, "dev/PLOT.svg")
+  
   # Check all necessary packages installed --------------------------------
   
   if (file.exists("_targets_packages.R")) {
@@ -12,7 +20,7 @@ setup_project <- function() {
   
   # Make sure all the necessary folders exist -----------------------------
   
-  necessary_folders = c("data/FBI", "data/NCVS", "outputs/DFs", "outputs/PLOTs")
+  necessary_folders = c("data/FBI", "data/NCVS", "outputs/DFs", "outputs/PLOTs/", "outputs/PLOTs/surface")
   
   if (all(necessary_folders %in% dir(recursive = TRUE, include.dirs = TRUE, all.files = TRUE))) {
     
