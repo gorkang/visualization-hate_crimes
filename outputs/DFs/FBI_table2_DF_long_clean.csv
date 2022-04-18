@@ -1,0 +1,977 @@
+order;offense_type;year;file;name;value;offense_supra
+1;Total;2006;data/FBI//06/excels/table2.xls;incidents;7722;Total
+1;Total;2006;data/FBI//06/excels/table2.xls;offenses;9080;Total
+1;Total;2006;data/FBI//06/excels/table2.xls;victims;9652;Total
+1;Total;2006;data/FBI//06/excels/table2.xls;known_offenders;7330;Total
+1;Crimes against persons:;2006;data/FBI//06/excels/table2.xls;incidents;4378;Crimes against persons:
+1;Crimes against persons:;2006;data/FBI//06/excels/table2.xls;offenses;5449;Crimes against persons:
+1;Crimes against persons:;2006;data/FBI//06/excels/table2.xls;victims;5449;Crimes against persons:
+1;Crimes against persons:;2006;data/FBI//06/excels/table2.xls;known_offenders;5770;Crimes against persons:
+1;Murder and nonnegligent manslaughter;2006;data/FBI//06/excels/table2.xls;incidents;3;Crimes against property:
+1;Murder and nonnegligent manslaughter;2006;data/FBI//06/excels/table2.xls;offenses;3;Crimes against property:
+1;Murder and nonnegligent manslaughter;2006;data/FBI//06/excels/table2.xls;victims;3;Crimes against property:
+1;Murder and nonnegligent manslaughter;2006;data/FBI//06/excels/table2.xls;known_offenders;4;Crimes against property:
+1;Forcible rape;2006;data/FBI//06/excels/table2.xls;incidents;6;Crimes against property:
+1;Forcible rape;2006;data/FBI//06/excels/table2.xls;offenses;6;Crimes against property:
+1;Forcible rape;2006;data/FBI//06/excels/table2.xls;victims;6;Crimes against property:
+1;Forcible rape;2006;data/FBI//06/excels/table2.xls;known_offenders;8;Crimes against property:
+1;Aggravated assault;2006;data/FBI//06/excels/table2.xls;incidents;860;Crimes against property:
+1;Aggravated assault;2006;data/FBI//06/excels/table2.xls;offenses;1178;Crimes against property:
+1;Aggravated assault;2006;data/FBI//06/excels/table2.xls;victims;1178;Crimes against property:
+1;Aggravated assault;2006;data/FBI//06/excels/table2.xls;known_offenders;1606;Crimes against property:
+1;Simple assault;2006;data/FBI//06/excels/table2.xls;incidents;1447;Crimes against property:
+1;Simple assault;2006;data/FBI//06/excels/table2.xls;offenses;1737;Crimes against property:
+1;Simple assault;2006;data/FBI//06/excels/table2.xls;victims;1737;Crimes against property:
+1;Simple assault;2006;data/FBI//06/excels/table2.xls;known_offenders;2116;Crimes against property:
+1;Intimidation;2006;data/FBI//06/excels/table2.xls;incidents;2046;Crimes against property:
+1;Intimidation;2006;data/FBI//06/excels/table2.xls;offenses;2508;Crimes against property:
+1;Intimidation;2006;data/FBI//06/excels/table2.xls;victims;2508;Crimes against property:
+1;Intimidation;2006;data/FBI//06/excels/table2.xls;known_offenders;2018;Crimes against property:
+1;Other;2006;data/FBI//06/excels/table2.xls;incidents;16;NA
+1;Other;2006;data/FBI//06/excels/table2.xls;offenses;17;NA
+1;Other;2006;data/FBI//06/excels/table2.xls;victims;17;NA
+1;Other;2006;data/FBI//06/excels/table2.xls;known_offenders;18;NA
+1;Crimes against property:;2006;data/FBI//06/excels/table2.xls;incidents;3593;Crimes against property:
+1;Crimes against property:;2006;data/FBI//06/excels/table2.xls;offenses;3593;Crimes against property:
+1;Crimes against property:;2006;data/FBI//06/excels/table2.xls;victims;4165;Crimes against property:
+1;Crimes against property:;2006;data/FBI//06/excels/table2.xls;known_offenders;1912;Crimes against property:
+1;Robbery;2006;data/FBI//06/excels/table2.xls;incidents;142;Crimes against property:
+1;Robbery;2006;data/FBI//06/excels/table2.xls;offenses;142;Crimes against property:
+1;Robbery;2006;data/FBI//06/excels/table2.xls;victims;200;Crimes against property:
+1;Robbery;2006;data/FBI//06/excels/table2.xls;known_offenders;311;Crimes against property:
+1;Burglary;2006;data/FBI//06/excels/table2.xls;incidents;155;Crimes against property:
+1;Burglary;2006;data/FBI//06/excels/table2.xls;offenses;155;Crimes against property:
+1;Burglary;2006;data/FBI//06/excels/table2.xls;victims;177;Crimes against property:
+1;Burglary;2006;data/FBI//06/excels/table2.xls;known_offenders;112;Crimes against property:
+1;Larceny-theft;2006;data/FBI//06/excels/table2.xls;incidents;261;Crimes against property:
+1;Larceny-theft;2006;data/FBI//06/excels/table2.xls;offenses;261;Crimes against property:
+1;Larceny-theft;2006;data/FBI//06/excels/table2.xls;victims;283;Crimes against property:
+1;Larceny-theft;2006;data/FBI//06/excels/table2.xls;known_offenders;182;Crimes against property:
+1;Motor vehicle theft;2006;data/FBI//06/excels/table2.xls;incidents;25;Crimes against property:
+1;Motor vehicle theft;2006;data/FBI//06/excels/table2.xls;offenses;25;Crimes against property:
+1;Motor vehicle theft;2006;data/FBI//06/excels/table2.xls;victims;44;Crimes against property:
+1;Motor vehicle theft;2006;data/FBI//06/excels/table2.xls;known_offenders;17;Crimes against property:
+1;Arson;2006;data/FBI//06/excels/table2.xls;incidents;41;Crimes against property:
+1;Arson;2006;data/FBI//06/excels/table2.xls;offenses;41;Crimes against property:
+1;Arson;2006;data/FBI//06/excels/table2.xls;victims;51;Crimes against property:
+1;Arson;2006;data/FBI//06/excels/table2.xls;known_offenders;30;Crimes against property:
+1;Destruction/damage/vandalism;2006;data/FBI//06/excels/table2.xls;incidents;2911;Crimes against property:
+1;Destruction/damage/vandalism;2006;data/FBI//06/excels/table2.xls;offenses;2911;Crimes against property:
+1;Destruction/damage/vandalism;2006;data/FBI//06/excels/table2.xls;victims;3348;Crimes against property:
+1;Destruction/damage/vandalism;2006;data/FBI//06/excels/table2.xls;known_offenders;1212;Crimes against property:
+1;Other;2006;data/FBI//06/excels/table2.xls;incidents;58;NA
+1;Other;2006;data/FBI//06/excels/table2.xls;offenses;58;NA
+1;Other;2006;data/FBI//06/excels/table2.xls;victims;62;NA
+1;Other;2006;data/FBI//06/excels/table2.xls;known_offenders;48;NA
+1;Crimes against society;2006;data/FBI//06/excels/table2.xls;incidents;38;Crimes against society:
+1;Crimes against society;2006;data/FBI//06/excels/table2.xls;offenses;38;Crimes against society:
+1;Crimes against society;2006;data/FBI//06/excels/table2.xls;victims;38;Crimes against society:
+1;Crimes against society;2006;data/FBI//06/excels/table2.xls;known_offenders;58;Crimes against society:
+2;Total;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;7624;Total
+2;Total;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;9006;Total
+2;Total;2007;data/FBI//07/hatecrimetables/table2.xls;victims;9535;Total
+2;Total;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;6965;Total
+2;Crimes against persons:;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;4347;Crimes against persons:
+2;Crimes against persons:;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;5408;Crimes against persons:
+2;Crimes against persons:;2007;data/FBI//07/hatecrimetables/table2.xls;victims;5408;Crimes against persons:
+2;Crimes against persons:;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;5542;Crimes against persons:
+2;Murder and nonnegligent manslaughter;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;9;Crimes against property:
+2;Murder and nonnegligent manslaughter;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;9;Crimes against property:
+2;Murder and nonnegligent manslaughter;2007;data/FBI//07/hatecrimetables/table2.xls;victims;9;Crimes against property:
+2;Murder and nonnegligent manslaughter;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;14;Crimes against property:
+2;Forcible rape;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;2;Crimes against property:
+2;Forcible rape;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;2;Crimes against property:
+2;Forcible rape;2007;data/FBI//07/hatecrimetables/table2.xls;victims;2;Crimes against property:
+2;Forcible rape;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;4;Crimes against property:
+2;Aggravated assault;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;853;Crimes against property:
+2;Aggravated assault;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;1116;Crimes against property:
+2;Aggravated assault;2007;data/FBI//07/hatecrimetables/table2.xls;victims;1116;Crimes against property:
+2;Aggravated assault;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;1409;Crimes against property:
+2;Simple assault;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;1410;Crimes against property:
+2;Simple assault;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;1684;Crimes against property:
+2;Simple assault;2007;data/FBI//07/hatecrimetables/table2.xls;victims;1684;Crimes against property:
+2;Simple assault;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;2052;Crimes against property:
+2;Intimidation;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;2045;Crimes against property:
+2;Intimidation;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;2565;Crimes against property:
+2;Intimidation;2007;data/FBI//07/hatecrimetables/table2.xls;victims;2565;Crimes against property:
+2;Intimidation;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;2026;Crimes against property:
+2;Other;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;28;NA
+2;Other;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;32;NA
+2;Other;2007;data/FBI//07/hatecrimetables/table2.xls;victims;32;NA
+2;Other;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;37;NA
+2;Crimes against property:;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;3579;Crimes against property:
+2;Crimes against property:;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;3579;Crimes against property:
+2;Crimes against property:;2007;data/FBI//07/hatecrimetables/table2.xls;victims;4108;Crimes against property:
+2;Crimes against property:;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;1826;Crimes against property:
+2;Robbery;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;178;Crimes against property:
+2;Robbery;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;178;Crimes against property:
+2;Robbery;2007;data/FBI//07/hatecrimetables/table2.xls;victims;236;Crimes against property:
+2;Robbery;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;392;Crimes against property:
+2;Burglary;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;159;Crimes against property:
+2;Burglary;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;159;Crimes against property:
+2;Burglary;2007;data/FBI//07/hatecrimetables/table2.xls;victims;193;Crimes against property:
+2;Burglary;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;130;Crimes against property:
+2;Larceny-theft;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;221;Crimes against property:
+2;Larceny-theft;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;221;Crimes against property:
+2;Larceny-theft;2007;data/FBI//07/hatecrimetables/table2.xls;victims;230;Crimes against property:
+2;Larceny-theft;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;126;Crimes against property:
+2;Motor vehicle theft;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;22;Crimes against property:
+2;Motor vehicle theft;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;22;Crimes against property:
+2;Motor vehicle theft;2007;data/FBI//07/hatecrimetables/table2.xls;victims;27;Crimes against property:
+2;Motor vehicle theft;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;4;Crimes against property:
+2;Arson;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;40;Crimes against property:
+2;Arson;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;40;Crimes against property:
+2;Arson;2007;data/FBI//07/hatecrimetables/table2.xls;victims;47;Crimes against property:
+2;Arson;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;33;Crimes against property:
+2;Destruction/damage/vandalism;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;2915;Crimes against property:
+2;Destruction/damage/vandalism;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;2915;Crimes against property:
+2;Destruction/damage/vandalism;2007;data/FBI//07/hatecrimetables/table2.xls;victims;3328;Crimes against property:
+2;Destruction/damage/vandalism;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;1108;Crimes against property:
+2;Other;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;44;NA
+2;Other;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;44;NA
+2;Other;2007;data/FBI//07/hatecrimetables/table2.xls;victims;47;NA
+2;Other;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;33;NA
+2;Crimes against society;2007;data/FBI//07/hatecrimetables/table2.xls;incidents;19;Crimes against society:
+2;Crimes against society;2007;data/FBI//07/hatecrimetables/table2.xls;offenses;19;Crimes against society:
+2;Crimes against society;2007;data/FBI//07/hatecrimetables/table2.xls;victims;19;Crimes against society:
+2;Crimes against society;2007;data/FBI//07/hatecrimetables/table2.xls;known_offenders;25;Crimes against society:
+3;Total;2008;data/FBI//08/hcs08tables/table2.xls;incidents;7783;Total
+3;Total;2008;data/FBI//08/hcs08tables/table2.xls;offenses;9168;Total
+3;Total;2008;data/FBI//08/hcs08tables/table2.xls;victims;9691;Total
+3;Total;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;6927;Total
+3;Crimes against persons:;2008;data/FBI//08/hcs08tables/table2.xls;incidents;4490;Crimes against persons:
+3;Crimes against persons:;2008;data/FBI//08/hcs08tables/table2.xls;offenses;5542;Crimes against persons:
+3;Crimes against persons:;2008;data/FBI//08/hcs08tables/table2.xls;victims;5542;Crimes against persons:
+3;Crimes against persons:;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;5613;Crimes against persons:
+3;Murder and nonnegligent manslaughter;2008;data/FBI//08/hcs08tables/table2.xls;incidents;7;Crimes against property:
+3;Murder and nonnegligent manslaughter;2008;data/FBI//08/hcs08tables/table2.xls;offenses;7;Crimes against property:
+3;Murder and nonnegligent manslaughter;2008;data/FBI//08/hcs08tables/table2.xls;victims;7;Crimes against property:
+3;Murder and nonnegligent manslaughter;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;8;Crimes against property:
+3;Forcible rape;2008;data/FBI//08/hcs08tables/table2.xls;incidents;11;Crimes against property:
+3;Forcible rape;2008;data/FBI//08/hcs08tables/table2.xls;offenses;11;Crimes against property:
+3;Forcible rape;2008;data/FBI//08/hcs08tables/table2.xls;victims;11;Crimes against property:
+3;Forcible rape;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;20;Crimes against property:
+3;Aggravated assault;2008;data/FBI//08/hcs08tables/table2.xls;incidents;774;Crimes against property:
+3;Aggravated assault;2008;data/FBI//08/hcs08tables/table2.xls;offenses;1025;Crimes against property:
+3;Aggravated assault;2008;data/FBI//08/hcs08tables/table2.xls;victims;1025;Crimes against property:
+3;Aggravated assault;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;1405;Crimes against property:
+3;Simple assault;2008;data/FBI//08/hcs08tables/table2.xls;incidents;1503;Crimes against property:
+3;Simple assault;2008;data/FBI//08/hcs08tables/table2.xls;offenses;1778;Crimes against property:
+3;Simple assault;2008;data/FBI//08/hcs08tables/table2.xls;victims;1778;Crimes against property:
+3;Simple assault;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;2062;Crimes against property:
+3;Intimidation;2008;data/FBI//08/hcs08tables/table2.xls;incidents;2178;Crimes against property:
+3;Intimidation;2008;data/FBI//08/hcs08tables/table2.xls;offenses;2704;Crimes against property:
+3;Intimidation;2008;data/FBI//08/hcs08tables/table2.xls;victims;2704;Crimes against property:
+3;Intimidation;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;2093;Crimes against property:
+3;Other;2008;data/FBI//08/hcs08tables/table2.xls;incidents;17;NA
+3;Other;2008;data/FBI//08/hcs08tables/table2.xls;offenses;17;NA
+3;Other;2008;data/FBI//08/hcs08tables/table2.xls;victims;17;NA
+3;Other;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;25;NA
+3;Crimes against property:;2008;data/FBI//08/hcs08tables/table2.xls;incidents;3608;Crimes against property:
+3;Crimes against property:;2008;data/FBI//08/hcs08tables/table2.xls;offenses;3608;Crimes against property:
+3;Crimes against property:;2008;data/FBI//08/hcs08tables/table2.xls;victims;4131;Crimes against property:
+3;Crimes against property:;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;1758;Crimes against property:
+3;Robbery;2008;data/FBI//08/hcs08tables/table2.xls;incidents;145;Crimes against property:
+3;Robbery;2008;data/FBI//08/hcs08tables/table2.xls;offenses;145;Crimes against property:
+3;Robbery;2008;data/FBI//08/hcs08tables/table2.xls;victims;180;Crimes against property:
+3;Robbery;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;317;Crimes against property:
+3;Burglary;2008;data/FBI//08/hcs08tables/table2.xls;incidents;158;Crimes against property:
+3;Burglary;2008;data/FBI//08/hcs08tables/table2.xls;offenses;158;Crimes against property:
+3;Burglary;2008;data/FBI//08/hcs08tables/table2.xls;victims;186;Crimes against property:
+3;Burglary;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;107;Crimes against property:
+3;Larceny-theft;2008;data/FBI//08/hcs08tables/table2.xls;incidents;224;Crimes against property:
+3;Larceny-theft;2008;data/FBI//08/hcs08tables/table2.xls;offenses;224;Crimes against property:
+3;Larceny-theft;2008;data/FBI//08/hcs08tables/table2.xls;victims;242;Crimes against property:
+3;Larceny-theft;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;144;Crimes against property:
+3;Motor vehicle theft;2008;data/FBI//08/hcs08tables/table2.xls;incidents;26;Crimes against property:
+3;Motor vehicle theft;2008;data/FBI//08/hcs08tables/table2.xls;offenses;26;Crimes against property:
+3;Motor vehicle theft;2008;data/FBI//08/hcs08tables/table2.xls;victims;26;Crimes against property:
+3;Motor vehicle theft;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;16;Crimes against property:
+3;Arson;2008;data/FBI//08/hcs08tables/table2.xls;incidents;53;Crimes against property:
+3;Arson;2008;data/FBI//08/hcs08tables/table2.xls;offenses;53;Crimes against property:
+3;Arson;2008;data/FBI//08/hcs08tables/table2.xls;victims;81;Crimes against property:
+3;Arson;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;42;Crimes against property:
+3;Destruction/damage/vandalism;2008;data/FBI//08/hcs08tables/table2.xls;incidents;2970;Crimes against property:
+3;Destruction/damage/vandalism;2008;data/FBI//08/hcs08tables/table2.xls;offenses;2970;Crimes against property:
+3;Destruction/damage/vandalism;2008;data/FBI//08/hcs08tables/table2.xls;victims;3382;Crimes against property:
+3;Destruction/damage/vandalism;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;1098;Crimes against property:
+3;Other;2008;data/FBI//08/hcs08tables/table2.xls;incidents;32;NA
+3;Other;2008;data/FBI//08/hcs08tables/table2.xls;offenses;32;NA
+3;Other;2008;data/FBI//08/hcs08tables/table2.xls;victims;34;NA
+3;Other;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;34;NA
+3;Crimes against society;2008;data/FBI//08/hcs08tables/table2.xls;incidents;18;Crimes against society:
+3;Crimes against society;2008;data/FBI//08/hcs08tables/table2.xls;offenses;18;Crimes against society:
+3;Crimes against society;2008;data/FBI//08/hcs08tables/table2.xls;victims;18;Crimes against society:
+3;Crimes against society;2008;data/FBI//08/hcs08tables/table2.xls;known_offenders;27;Crimes against society:
+4;Total;2009;data/FBI//09/Table 2.xls;incidents;6604;Total
+4;Total;2009;data/FBI//09/Table 2.xls;offenses;7789;Total
+4;Total;2009;data/FBI//09/Table 2.xls;victims;8336;Total
+4;Total;2009;data/FBI//09/Table 2.xls;known_offenders;6225;Total
+4;Crimes against persons:;2009;data/FBI//09/Table 2.xls;incidents;3875;Crimes against persons:
+4;Crimes against persons:;2009;data/FBI//09/Table 2.xls;offenses;4793;Crimes against persons:
+4;Crimes against persons:;2009;data/FBI//09/Table 2.xls;victims;4793;Crimes against persons:
+4;Crimes against persons:;2009;data/FBI//09/Table 2.xls;known_offenders;5136;Crimes against persons:
+4;Murder and nonnegligent manslaughter;2009;data/FBI//09/Table 2.xls;incidents;8;Crimes against property:
+4;Murder and nonnegligent manslaughter;2009;data/FBI//09/Table 2.xls;offenses;8;Crimes against property:
+4;Murder and nonnegligent manslaughter;2009;data/FBI//09/Table 2.xls;victims;8;Crimes against property:
+4;Murder and nonnegligent manslaughter;2009;data/FBI//09/Table 2.xls;known_offenders;47;Crimes against property:
+4;Forcible rape;2009;data/FBI//09/Table 2.xls;incidents;9;Crimes against property:
+4;Forcible rape;2009;data/FBI//09/Table 2.xls;offenses;9;Crimes against property:
+4;Forcible rape;2009;data/FBI//09/Table 2.xls;victims;9;Crimes against property:
+4;Forcible rape;2009;data/FBI//09/Table 2.xls;known_offenders;16;Crimes against property:
+4;Aggravated assault;2009;data/FBI//09/Table 2.xls;incidents;699;Crimes against property:
+4;Aggravated assault;2009;data/FBI//09/Table 2.xls;offenses;914;Crimes against property:
+4;Aggravated assault;2009;data/FBI//09/Table 2.xls;victims;914;Crimes against property:
+4;Aggravated assault;2009;data/FBI//09/Table 2.xls;known_offenders;1208;Crimes against property:
+4;Simple assault;2009;data/FBI//09/Table 2.xls;incidents;1446;Crimes against property:
+4;Simple assault;2009;data/FBI//09/Table 2.xls;offenses;1691;Crimes against property:
+4;Simple assault;2009;data/FBI//09/Table 2.xls;victims;1691;Crimes against property:
+4;Simple assault;2009;data/FBI//09/Table 2.xls;known_offenders;2072;Crimes against property:
+4;Intimidation;2009;data/FBI//09/Table 2.xls;incidents;1700;Crimes against property:
+4;Intimidation;2009;data/FBI//09/Table 2.xls;offenses;2158;Crimes against property:
+4;Intimidation;2009;data/FBI//09/Table 2.xls;victims;2158;Crimes against property:
+4;Intimidation;2009;data/FBI//09/Table 2.xls;known_offenders;1778;Crimes against property:
+4;Other;2009;data/FBI//09/Table 2.xls;incidents;13;NA
+4;Other;2009;data/FBI//09/Table 2.xls;offenses;13;NA
+4;Other;2009;data/FBI//09/Table 2.xls;victims;13;NA
+4;Other;2009;data/FBI//09/Table 2.xls;known_offenders;15;NA
+4;Crimes against property:;2009;data/FBI//09/Table 2.xls;incidents;2970;Crimes against property:
+4;Crimes against property:;2009;data/FBI//09/Table 2.xls;offenses;2970;Crimes against property:
+4;Crimes against property:;2009;data/FBI//09/Table 2.xls;victims;3517;Crimes against property:
+4;Crimes against property:;2009;data/FBI//09/Table 2.xls;known_offenders;1453;Crimes against property:
+4;Robbery;2009;data/FBI//09/Table 2.xls;incidents;124;Crimes against property:
+4;Robbery;2009;data/FBI//09/Table 2.xls;offenses;124;Crimes against property:
+4;Robbery;2009;data/FBI//09/Table 2.xls;victims;142;Crimes against property:
+4;Robbery;2009;data/FBI//09/Table 2.xls;known_offenders;293;Crimes against property:
+4;Burglary;2009;data/FBI//09/Table 2.xls;incidents;137;Crimes against property:
+4;Burglary;2009;data/FBI//09/Table 2.xls;offenses;137;Crimes against property:
+4;Burglary;2009;data/FBI//09/Table 2.xls;victims;157;Crimes against property:
+4;Burglary;2009;data/FBI//09/Table 2.xls;known_offenders;78;Crimes against property:
+4;Larceny-theft;2009;data/FBI//09/Table 2.xls;incidents;163;Crimes against property:
+4;Larceny-theft;2009;data/FBI//09/Table 2.xls;offenses;163;Crimes against property:
+4;Larceny-theft;2009;data/FBI//09/Table 2.xls;victims;174;Crimes against property:
+4;Larceny-theft;2009;data/FBI//09/Table 2.xls;known_offenders;126;Crimes against property:
+4;Motor vehicle theft;2009;data/FBI//09/Table 2.xls;incidents;11;Crimes against property:
+4;Motor vehicle theft;2009;data/FBI//09/Table 2.xls;offenses;11;Crimes against property:
+4;Motor vehicle theft;2009;data/FBI//09/Table 2.xls;victims;11;Crimes against property:
+4;Motor vehicle theft;2009;data/FBI//09/Table 2.xls;known_offenders;7;Crimes against property:
+4;Arson;2009;data/FBI//09/Table 2.xls;incidents;41;Crimes against property:
+4;Arson;2009;data/FBI//09/Table 2.xls;offenses;41;Crimes against property:
+4;Arson;2009;data/FBI//09/Table 2.xls;victims;61;Crimes against property:
+4;Arson;2009;data/FBI//09/Table 2.xls;known_offenders;22;Crimes against property:
+4;Destruction/damage/vandalism;2009;data/FBI//09/Table 2.xls;incidents;2465;Crimes against property:
+4;Destruction/damage/vandalism;2009;data/FBI//09/Table 2.xls;offenses;2465;Crimes against property:
+4;Destruction/damage/vandalism;2009;data/FBI//09/Table 2.xls;victims;2943;Crimes against property:
+4;Destruction/damage/vandalism;2009;data/FBI//09/Table 2.xls;known_offenders;898;Crimes against property:
+4;Other;2009;data/FBI//09/Table 2.xls;incidents;29;NA
+4;Other;2009;data/FBI//09/Table 2.xls;offenses;29;NA
+4;Other;2009;data/FBI//09/Table 2.xls;victims;29;NA
+4;Other;2009;data/FBI//09/Table 2.xls;known_offenders;29;NA
+4;Crimes against society;2009;data/FBI//09/Table 2.xls;incidents;26;Crimes against society:
+4;Crimes against society;2009;data/FBI//09/Table 2.xls;offenses;26;Crimes against society:
+4;Crimes against society;2009;data/FBI//09/Table 2.xls;victims;26;Crimes against society:
+4;Crimes against society;2009;data/FBI//09/Table 2.xls;known_offenders;34;Crimes against society:
+5;Total;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;6628;Total
+5;Total;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;7699;Total
+5;Total;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;8208;Total
+5;Total;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;6008;Total
+5;Crimes against persons:;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;3978;Crimes against persons:
+5;Crimes against persons:;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;4824;Crimes against persons:
+5;Crimes against persons:;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;4824;Crimes against persons:
+5;Crimes against persons:;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;4873;Crimes against persons:
+5;Murder and nonnegligent manslaughter;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;6;Crimes against property:
+5;Murder and nonnegligent manslaughter;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;7;Crimes against property:
+5;Murder and nonnegligent manslaughter;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;7;Crimes against property:
+5;Murder and nonnegligent manslaughter;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;9;Crimes against property:
+5;Forcible rape;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;4;Crimes against property:
+5;Forcible rape;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;4;Crimes against property:
+5;Forcible rape;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;4;Crimes against property:
+5;Forcible rape;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;7;Crimes against property:
+5;Aggravated assault;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;695;Crimes against property:
+5;Aggravated assault;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;888;Crimes against property:
+5;Aggravated assault;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;888;Crimes against property:
+5;Aggravated assault;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;1144;Crimes against property:
+5;Simple assault;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;1472;Crimes against property:
+5;Simple assault;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;1681;Crimes against property:
+5;Simple assault;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;1681;Crimes against property:
+5;Simple assault;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;1972;Crimes against property:
+5;Intimidation;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;1790;Crimes against property:
+5;Intimidation;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;2231;Crimes against property:
+5;Intimidation;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;2231;Crimes against property:
+5;Intimidation;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;1726;Crimes against property:
+5;Other;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;11;NA
+5;Other;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;13;NA
+5;Other;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;13;NA
+5;Other;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;15;NA
+5;Crimes against property:;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;2861;Crimes against property:
+5;Crimes against property:;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;2861;Crimes against property:
+5;Crimes against property:;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;3370;Crimes against property:
+5;Crimes against property:;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;1419;Crimes against property:
+5;Robbery;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;146;Crimes against property:
+5;Robbery;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;146;Crimes against property:
+5;Robbery;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;168;Crimes against property:
+5;Robbery;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;290;Crimes against property:
+5;Burglary;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;125;Crimes against property:
+5;Burglary;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;125;Crimes against property:
+5;Burglary;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;163;Crimes against property:
+5;Burglary;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;88;Crimes against property:
+5;Larceny-theft;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;175;Crimes against property:
+5;Larceny-theft;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;175;Crimes against property:
+5;Larceny-theft;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;195;Crimes against property:
+5;Larceny-theft;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;141;Crimes against property:
+5;Motor vehicle theft;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;16;Crimes against property:
+5;Motor vehicle theft;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;16;Crimes against property:
+5;Motor vehicle theft;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;16;Crimes against property:
+5;Motor vehicle theft;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;8;Crimes against property:
+5;Arson;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;43;Crimes against property:
+5;Arson;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;43;Crimes against property:
+5;Arson;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;45;Crimes against property:
+5;Arson;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;30;Crimes against property:
+5;Destruction/damage/vandalism;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;2321;Crimes against property:
+5;Destruction/damage/vandalism;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;2321;Crimes against property:
+5;Destruction/damage/vandalism;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;2747;Crimes against property:
+5;Destruction/damage/vandalism;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;831;Crimes against property:
+5;Other;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;35;NA
+5;Other;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;35;NA
+5;Other;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;36;NA
+5;Other;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;31;NA
+5;Crimes against society;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;incidents;14;Crimes against society:
+5;Crimes against society;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;offenses;14;Crimes against society:
+5;Crimes against society;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;victims;14;Crimes against society:
+5;Crimes against society;2010;data/FBI//2010/Hate Crime Statistics 2010/Table 2-Incidents Offenses Victims and Known Offenders-by Offense Type 2010.xls;known_offenders;18;Crimes against society:
+6;Total;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;6222;Total
+6;Total;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;7254;Total
+6;Total;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;7713;Total
+6;Total;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;5731;Total
+6;Crimes against persons:;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;3754;Crimes against persons:
+6;Crimes against persons:;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;4623;Crimes against persons:
+6;Crimes against persons:;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;4623;Crimes against persons:
+6;Crimes against persons:;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;4631;Crimes against persons:
+6;Murder and nonnegligent manslaughter;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;4;Crimes against property:
+6;Murder and nonnegligent manslaughter;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;4;Crimes against property:
+6;Murder and nonnegligent manslaughter;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;4;Crimes against property:
+6;Murder and nonnegligent manslaughter;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;7;Crimes against property:
+6;Forcible rape;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;7;Crimes against property:
+6;Forcible rape;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;7;Crimes against property:
+6;Forcible rape;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;7;Crimes against property:
+6;Forcible rape;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;10;Crimes against property:
+6;Aggravated assault;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;677;Crimes against property:
+6;Aggravated assault;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;895;Crimes against property:
+6;Aggravated assault;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;895;Crimes against property:
+6;Aggravated assault;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;1095;Crimes against property:
+6;Simple assault;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;1336;Crimes against property:
+6;Simple assault;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;1595;Crimes against property:
+6;Simple assault;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;1595;Crimes against property:
+6;Simple assault;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;1790;Crimes against property:
+6;Intimidation;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;1720;Crimes against property:
+6;Intimidation;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;2106;Crimes against property:
+6;Intimidation;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;2106;Crimes against property:
+6;Intimidation;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;1711;Crimes against property:
+6;Other;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;10;NA
+6;Other;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;16;NA
+6;Other;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;16;NA
+6;Other;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;18;NA
+6;Crimes against property:;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;2611;Crimes against property:
+6;Crimes against property:;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;2611;Crimes against property:
+6;Crimes against property:;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;3070;Crimes against property:
+6;Crimes against property:;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;1256;Crimes against property:
+6;Robbery;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;131;Crimes against property:
+6;Robbery;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;131;Crimes against property:
+6;Robbery;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;157;Crimes against property:
+6;Robbery;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;288;Crimes against property:
+6;Burglary;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;124;Crimes against property:
+6;Burglary;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;124;Crimes against property:
+6;Burglary;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;147;Crimes against property:
+6;Burglary;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;72;Crimes against property:
+6;Larceny-theft;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;152;Crimes against property:
+6;Larceny-theft;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;152;Crimes against property:
+6;Larceny-theft;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;165;Crimes against property:
+6;Larceny-theft;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;88;Crimes against property:
+6;Motor vehicle theft;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;6;Crimes against property:
+6;Motor vehicle theft;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;6;Crimes against property:
+6;Motor vehicle theft;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;6;Crimes against property:
+6;Motor vehicle theft;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;1;Crimes against property:
+6;Arson;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;42;Crimes against property:
+6;Arson;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;42;Crimes against property:
+6;Arson;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;52;Crimes against property:
+6;Arson;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;20;Crimes against property:
+6;Destruction/damage/vandalism;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;2125;Crimes against property:
+6;Destruction/damage/vandalism;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;2125;Crimes against property:
+6;Destruction/damage/vandalism;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;2510;Crimes against property:
+6;Destruction/damage/vandalism;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;759;Crimes against property:
+6;Other;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;31;NA
+6;Other;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;31;NA
+6;Other;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;33;NA
+6;Other;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;28;NA
+6;Crimes against society;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;incidents;20;Crimes against society:
+6;Crimes against society;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;offenses;20;Crimes against society:
+6;Crimes against society;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;victims;20;Crimes against society:
+6;Crimes against society;2011;data/FBI//2011/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2011.xls;known_offenders;34;Crimes against society:
+7;Total;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;5796;Total
+7;Total;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;6718;Total
+7;Total;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;7164;Total
+7;Total;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;5331;Total
+7;Crimes against persons:;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;3258;Crimes against persons:
+7;Crimes against persons:;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;3968;Crimes against persons:
+7;Crimes against persons:;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;3968;Crimes against persons:
+7;Crimes against persons:;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;3948;Crimes against persons:
+7;Murder and nonnegligent manslaughter;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;5;Crimes against property:
+7;Murder and nonnegligent manslaughter;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;10;Crimes against property:
+7;Murder and nonnegligent manslaughter;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;10;Crimes against property:
+7;Murder and nonnegligent manslaughter;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;5;Crimes against property:
+7;Forcible rape;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;15;Crimes against property:
+7;Forcible rape;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;15;Crimes against property:
+7;Forcible rape;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;15;Crimes against property:
+7;Forcible rape;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;18;Crimes against property:
+7;Aggravated assault;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;644;Crimes against property:
+7;Aggravated assault;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;854;Crimes against property:
+7;Aggravated assault;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;854;Crimes against property:
+7;Aggravated assault;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;1011;Crimes against property:
+7;Simple assault;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;1336;Crimes against property:
+7;Simple assault;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;1570;Crimes against property:
+7;Simple assault;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;1570;Crimes against property:
+7;Simple assault;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;1697;Crimes against property:
+7;Intimidation;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;1230;Crimes against property:
+7;Intimidation;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;1489;Crimes against property:
+7;Intimidation;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;1489;Crimes against property:
+7;Intimidation;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;1182;Crimes against property:
+7;Other;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;28;NA
+7;Other;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;30;NA
+7;Other;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;30;NA
+7;Other;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;35;NA
+7;Crimes against property:;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;2547;Crimes against property:
+7;Crimes against property:;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;2547;Crimes against property:
+7;Crimes against property:;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;2993;Crimes against property:
+7;Crimes against property:;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;1413;Crimes against property:
+7;Robbery;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;126;Crimes against property:
+7;Robbery;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;126;Crimes against property:
+7;Robbery;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;149;Crimes against property:
+7;Robbery;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;251;Crimes against property:
+7;Burglary;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;142;Crimes against property:
+7;Burglary;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;142;Crimes against property:
+7;Burglary;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;174;Crimes against property:
+7;Burglary;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;145;Crimes against property:
+7;Larceny-theft;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;258;Crimes against property:
+7;Larceny-theft;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;258;Crimes against property:
+7;Larceny-theft;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;281;Crimes against property:
+7;Larceny-theft;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;166;Crimes against property:
+7;Motor vehicle theft;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;23;Crimes against property:
+7;Motor vehicle theft;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;23;Crimes against property:
+7;Motor vehicle theft;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;24;Crimes against property:
+7;Motor vehicle theft;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;8;Crimes against property:
+7;Arson;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;38;Crimes against property:
+7;Arson;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;38;Crimes against property:
+7;Arson;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;46;Crimes against property:
+7;Arson;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;37;Crimes against property:
+7;Destruction/damage/vandalism;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;1906;Crimes against property:
+7;Destruction/damage/vandalism;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;1906;Crimes against property:
+7;Destruction/damage/vandalism;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;2263;Crimes against property:
+7;Destruction/damage/vandalism;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;757;Crimes against property:
+7;Other;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;54;NA
+7;Other;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;54;NA
+7;Other;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;56;NA
+7;Other;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;49;NA
+7;Crimes against society;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;incidents;203;Crimes against society:
+7;Crimes against society;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;offenses;203;Crimes against society:
+7;Crimes against society;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;victims;203;Crimes against society:
+7;Crimes against society;2012;data/FBI//2012/Hate Crime Statistics Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2012.xls;known_offenders;243;Crimes against society:
+8;Total;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;5928;Total
+8;Total;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;6933;Total
+8;Total;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;7242;Total
+8;Total;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;5814;Total
+8;Crimes against persons:;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;3607;Crimes against persons:
+8;Crimes against persons:;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;4430;Crimes against persons:
+8;Crimes against persons:;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;4430;Crimes against persons:
+8;Crimes against persons:;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;4440;Crimes against persons:
+8;Murder and nonnegligent manslaughter;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;5;Crimes against property:
+8;Murder and nonnegligent manslaughter;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;5;Crimes against property:
+8;Murder and nonnegligent manslaughter;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;5;Crimes against property:
+8;Murder and nonnegligent manslaughter;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;5;Crimes against property:
+8;Rape;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;15;Crimes against property:
+8;Rape;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;15;Crimes against property:
+8;Rape;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;15;Crimes against property:
+8;Rape;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;15;Crimes against property:
+8;Rape (legacy definition);2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;6;NA
+8;Rape (legacy definition);2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;6;NA
+8;Rape (legacy definition);2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;6;NA
+8;Rape (legacy definition);2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;10;NA
+8;Aggravated assault;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;588;Crimes against property:
+8;Aggravated assault;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;734;Crimes against property:
+8;Aggravated assault;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;734;Crimes against property:
+8;Aggravated assault;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;882;Crimes against property:
+8;Simple assault;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;1441;Crimes against property:
+8;Simple assault;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;1720;Crimes against property:
+8;Simple assault;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;1720;Crimes against property:
+8;Simple assault;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;2013;Crimes against property:
+8;Intimidation;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;1528;Crimes against property:
+8;Intimidation;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;1925;Crimes against property:
+8;Intimidation;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;1925;Crimes against property:
+8;Intimidation;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;1494;Crimes against property:
+8;Other;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;24;NA
+8;Other;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;25;NA
+8;Other;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;25;NA
+8;Other;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;21;NA
+8;Crimes against property:;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;2424;Crimes against property:
+8;Crimes against property:;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;2424;Crimes against property:
+8;Crimes against property:;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;2733;Crimes against property:
+8;Crimes against property:;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;1527;Crimes against property:
+8;Robbery;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;126;Crimes against property:
+8;Robbery;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;126;Crimes against property:
+8;Robbery;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;145;Crimes against property:
+8;Robbery;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;261;Crimes against property:
+8;Burglary;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;174;Crimes against property:
+8;Burglary;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;174;Crimes against property:
+8;Burglary;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;202;Crimes against property:
+8;Burglary;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;164;Crimes against property:
+8;Larceny-theft;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;225;Crimes against property:
+8;Larceny-theft;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;225;Crimes against property:
+8;Larceny-theft;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;246;Crimes against property:
+8;Larceny-theft;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;168;Crimes against property:
+8;Motor vehicle theft;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;20;Crimes against property:
+8;Motor vehicle theft;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;20;Crimes against property:
+8;Motor vehicle theft;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;21;Crimes against property:
+8;Motor vehicle theft;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;9;Crimes against property:
+8;Arson;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;36;Crimes against property:
+8;Arson;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;36;Crimes against property:
+8;Arson;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;40;Crimes against property:
+8;Arson;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;21;Crimes against property:
+8;Destruction/damage/vandalism;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;1783;Crimes against property:
+8;Destruction/damage/vandalism;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;1783;Crimes against property:
+8;Destruction/damage/vandalism;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;2011;Crimes against property:
+8;Destruction/damage/vandalism;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;862;Crimes against property:
+8;Other;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;60;NA
+8;Other;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;60;NA
+8;Other;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;68;NA
+8;Other;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;42;NA
+8;Crimes against society;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;incidents;79;Crimes against society:
+8;Crimes against society;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;offenses;79;Crimes against society:
+8;Crimes against society;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;victims;79;Crimes against society:
+8;Crimes against society;2013;data/FBI//2013/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2013.xls;known_offenders;102;Crimes against society:
+9;Total;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;5479;Total
+9;Total;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;6418;Total
+9;Total;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;6727;Total
+9;Total;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;5192;Total
+9;Crimes against persons:;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;3303;Crimes against persons:
+9;Crimes against persons:;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;4048;Crimes against persons:
+9;Crimes against persons:;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;4048;Crimes against persons:
+9;Crimes against persons:;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;3925;Crimes against persons:
+9;Murder and nonnegligent manslaughter;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;4;Crimes against property:
+9;Murder and nonnegligent manslaughter;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;4;Crimes against property:
+9;Murder and nonnegligent manslaughter;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;4;Crimes against property:
+9;Murder and nonnegligent manslaughter;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;5;Crimes against property:
+9;Rape;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;9;Crimes against property:
+9;Rape;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;9;Crimes against property:
+9;Rape;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;9;Crimes against property:
+9;Rape;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;10;Crimes against property:
+9;Rape (legacy definition);2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;0;NA
+9;Rape (legacy definition);2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;0;NA
+9;Rape (legacy definition);2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;0;NA
+9;Rape (legacy definition);2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;0;NA
+9;Aggravated assault;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;599;Crimes against property:
+9;Aggravated assault;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;770;Crimes against property:
+9;Aggravated assault;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;770;Crimes against property:
+9;Aggravated assault;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;899;Crimes against property:
+9;Simple assault;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;1307;Crimes against property:
+9;Simple assault;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;1514;Crimes against property:
+9;Simple assault;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;1514;Crimes against property:
+9;Simple assault;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;1664;Crimes against property:
+9;Intimidation;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;1378;Crimes against property:
+9;Intimidation;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;1745;Crimes against property:
+9;Intimidation;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;1745;Crimes against property:
+9;Intimidation;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;1336;Crimes against property:
+9;Other;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;6;NA
+9;Other;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;6;NA
+9;Other;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;6;NA
+9;Other;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;11;NA
+9;Crimes against property:;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;2317;Crimes against property:
+9;Crimes against property:;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;2317;Crimes against property:
+9;Crimes against property:;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;2624;Crimes against property:
+9;Crimes against property:;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;1455;Crimes against property:
+9;Robbery;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;122;Crimes against property:
+9;Robbery;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;122;Crimes against property:
+9;Robbery;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;138;Crimes against property:
+9;Robbery;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;255;Crimes against property:
+9;Burglary;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;162;Crimes against property:
+9;Burglary;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;162;Crimes against property:
+9;Burglary;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;208;Crimes against property:
+9;Burglary;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;185;Crimes against property:
+9;Larceny-theft;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;239;Crimes against property:
+9;Larceny-theft;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;239;Crimes against property:
+9;Larceny-theft;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;256;Crimes against property:
+9;Larceny-theft;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;152;Crimes against property:
+9;Motor vehicle theft;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;22;Crimes against property:
+9;Motor vehicle theft;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;22;Crimes against property:
+9;Motor vehicle theft;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;22;Crimes against property:
+9;Motor vehicle theft;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;15;Crimes against property:
+9;Arson;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;26;Crimes against property:
+9;Arson;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;26;Crimes against property:
+9;Arson;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;39;Crimes against property:
+9;Arson;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;20;Crimes against property:
+9;Destruction/damage/vandalism;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;1694;Crimes against property:
+9;Destruction/damage/vandalism;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;1694;Crimes against property:
+9;Destruction/damage/vandalism;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;1907;Crimes against property:
+9;Destruction/damage/vandalism;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;792;Crimes against property:
+9;Other;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;52;NA
+9;Other;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;52;NA
+9;Other;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;54;NA
+9;Other;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;36;NA
+9;Crimes against society;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;incidents;53;Crimes against society:
+9;Crimes against society;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;offenses;53;Crimes against society:
+9;Crimes against society;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;victims;55;Crimes against society:
+9;Crimes against society;2014;data/FBI//2014/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2014.xls;known_offenders;61;Crimes against society:
+10;Total;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;5850;Total
+10;Total;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;6885;Total
+10;Total;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;7173;Total
+10;Total;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;5493;Total
+10;Crimes against persons:;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;3646;Crimes against persons:
+10;Crimes against persons:;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;4482;Crimes against persons:
+10;Crimes against persons:;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;4482;Crimes against persons:
+10;Crimes against persons:;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;4230;Crimes against persons:
+10;Murder and nonnegligent manslaughter;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;8;Crimes against property:
+10;Murder and nonnegligent manslaughter;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;18;Crimes against property:
+10;Murder and nonnegligent manslaughter;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;18;Crimes against property:
+10;Murder and nonnegligent manslaughter;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;9;Crimes against property:
+10;Rape;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;12;Crimes against property:
+10;Rape;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;12;Crimes against property:
+10;Rape;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;12;Crimes against property:
+10;Rape;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;10;Crimes against property:
+10;Rape (legacy definition);2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;1;NA
+10;Rape (legacy definition);2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;1;NA
+10;Rape (legacy definition);2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;1;NA
+10;Rape (legacy definition);2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;1;NA
+10;Aggravated assault;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;681;Crimes against property:
+10;Aggravated assault;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;882;Crimes against property:
+10;Aggravated assault;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;882;Crimes against property:
+10;Aggravated assault;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;968;Crimes against property:
+10;Simple assault;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;1436;Crimes against property:
+10;Simple assault;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;1696;Crimes against property:
+10;Simple assault;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;1696;Crimes against property:
+10;Simple assault;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;1797;Crimes against property:
+10;Intimidation;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;1495;Crimes against property:
+10;Intimidation;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;1853;Crimes against property:
+10;Intimidation;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;1853;Crimes against property:
+10;Intimidation;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;1433;Crimes against property:
+10;Other;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;13;NA
+10;Other;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;20;NA
+10;Other;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;20;NA
+10;Other;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;12;NA
+10;Crimes against property:;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;2338;Crimes against property:
+10;Crimes against property:;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;2338;Crimes against property:
+10;Crimes against property:;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;2626;Crimes against property:
+10;Crimes against property:;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;1440;Crimes against property:
+10;Robbery;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;120;Crimes against property:
+10;Robbery;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;120;Crimes against property:
+10;Robbery;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;148;Crimes against property:
+10;Robbery;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;227;Crimes against property:
+10;Burglary;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;147;Crimes against property:
+10;Burglary;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;147;Crimes against property:
+10;Burglary;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;173;Crimes against property:
+10;Burglary;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;115;Crimes against property:
+10;Larceny-theft;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;255;Crimes against property:
+10;Larceny-theft;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;255;Crimes against property:
+10;Larceny-theft;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;274;Crimes against property:
+10;Larceny-theft;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;177;Crimes against property:
+10;Motor vehicle theft;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;22;Crimes against property:
+10;Motor vehicle theft;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;22;Crimes against property:
+10;Motor vehicle theft;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;24;Crimes against property:
+10;Motor vehicle theft;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;16;Crimes against property:
+10;Arson;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;30;Crimes against property:
+10;Arson;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;30;Crimes against property:
+10;Arson;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;36;Crimes against property:
+10;Arson;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;21;Crimes against property:
+10;Destruction/damage/vandalism;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;1698;Crimes against property:
+10;Destruction/damage/vandalism;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;1698;Crimes against property:
+10;Destruction/damage/vandalism;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;1897;Crimes against property:
+10;Destruction/damage/vandalism;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;836;Crimes against property:
+10;Other;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;66;NA
+10;Other;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;66;NA
+10;Other;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;74;NA
+10;Other;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;48;NA
+10;Crimes against society;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;incidents;65;Crimes against society:
+10;Crimes against society;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;offenses;65;Crimes against society:
+10;Crimes against society;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;victims;65;Crimes against society:
+10;Crimes against society;2015;data/FBI//2015/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2015.xls;known_offenders;74;Crimes against society:
+11;Total;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;6121;Total
+11;Total;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;7321;Total
+11;Total;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;7615;Total
+11;Total;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;5770;Total
+11;Crimes against persons:;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;3765;Crimes against persons:
+11;Crimes against persons:;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;4720;Crimes against persons:
+11;Crimes against persons:;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;4720;Crimes against persons:
+11;Crimes against persons:;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;4353;Crimes against persons:
+11;Murder and nonnegligent manslaughter;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;5;Crimes against property:
+11;Murder and nonnegligent manslaughter;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;9;Crimes against property:
+11;Murder and nonnegligent manslaughter;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;9;Crimes against property:
+11;Murder and nonnegligent manslaughter;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;9;Crimes against property:
+11;Rape;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;24;Crimes against property:
+11;Rape;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;24;Crimes against property:
+11;Rape;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;24;Crimes against property:
+11;Rape;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;29;Crimes against property:
+11;Rape (legacy definition);2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;0;NA
+11;Rape (legacy definition);2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;0;NA
+11;Rape (legacy definition);2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;0;NA
+11;Rape (legacy definition);2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;0;NA
+11;Aggravated assault;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;684;Crimes against property:
+11;Aggravated assault;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;873;Crimes against property:
+11;Aggravated assault;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;873;Crimes against property:
+11;Aggravated assault;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;1031;Crimes against property:
+11;Simple assault;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;1458;Crimes against property:
+11;Simple assault;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;1687;Crimes against property:
+11;Simple assault;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;1687;Crimes against property:
+11;Simple assault;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;1857;Crimes against property:
+11;Intimidation;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;1577;Crimes against property:
+11;Intimidation;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;2109;Crimes against property:
+11;Intimidation;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;2109;Crimes against property:
+11;Intimidation;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;1409;Crimes against property:
+11;Other;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;17;NA
+11;Other;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;18;NA
+11;Other;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;18;NA
+11;Other;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;18;NA
+11;Crimes against property:;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;2519;Crimes against property:
+11;Crimes against property:;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;2519;Crimes against property:
+11;Crimes against property:;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;2813;Crimes against property:
+11;Crimes against property:;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;1618;Crimes against property:
+11;Robbery;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;134;Crimes against property:
+11;Robbery;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;134;Crimes against property:
+11;Robbery;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;163;Crimes against property:
+11;Robbery;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;249;Crimes against property:
+11;Burglary;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;123;Crimes against property:
+11;Burglary;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;123;Crimes against property:
+11;Burglary;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;138;Crimes against property:
+11;Burglary;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;87;Crimes against property:
+11;Larceny-theft;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;231;Crimes against property:
+11;Larceny-theft;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;231;Crimes against property:
+11;Larceny-theft;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;253;Crimes against property:
+11;Larceny-theft;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;173;Crimes against property:
+11;Motor vehicle theft;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;20;Crimes against property:
+11;Motor vehicle theft;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;20;Crimes against property:
+11;Motor vehicle theft;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;21;Crimes against property:
+11;Motor vehicle theft;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;14;Crimes against property:
+11;Arson;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;39;Crimes against property:
+11;Arson;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;39;Crimes against property:
+11;Arson;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;51;Crimes against property:
+11;Arson;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;33;Crimes against property:
+11;Destruction/damage/vandalism;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;1913;Crimes against property:
+11;Destruction/damage/vandalism;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;1913;Crimes against property:
+11;Destruction/damage/vandalism;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;2122;Crimes against property:
+11;Destruction/damage/vandalism;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;1015;Crimes against property:
+11;Other;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;59;NA
+11;Other;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;59;NA
+11;Other;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;65;NA
+11;Other;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;47;NA
+11;Crimes against society;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;incidents;82;Crimes against society:
+11;Crimes against society;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;offenses;82;Crimes against society:
+11;Crimes against society;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;victims;82;Crimes against society:
+11;Crimes against society;2016;data/FBI//2016/Hate Crime Statistics 2016 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2016.xls;known_offenders;97;Crimes against society:
+12;Total;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;7175;Total
+12;Total;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;8437;Total
+12;Total;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;8828;Total
+12;Total;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;6370;Total
+12;Crimes against persons:;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;4090;Crimes against persons:
+12;Crimes against persons:;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;5084;Crimes against persons:
+12;Crimes against persons:;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;5084;Crimes against persons:
+12;Crimes against persons:;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;4442;Crimes against persons:
+12;Murder and nonnegligent manslaughter;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;12;Crimes against property:
+12;Murder and nonnegligent manslaughter;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;15;Crimes against property:
+12;Murder and nonnegligent manslaughter;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;15;Crimes against property:
+12;Murder and nonnegligent manslaughter;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;15;Crimes against property:
+12;Rape;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;23;Crimes against property:
+12;Rape;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;23;Crimes against property:
+12;Rape;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;23;Crimes against property:
+12;Rape;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;30;Crimes against property:
+12;Aggravated assault;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;788;Crimes against property:
+12;Aggravated assault;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;990;Crimes against property:
+12;Aggravated assault;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;990;Crimes against property:
+12;Aggravated assault;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;1051;Crimes against property:
+12;Simple assault;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;1433;Crimes against property:
+12;Simple assault;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;1745;Crimes against property:
+12;Simple assault;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;1745;Crimes against property:
+12;Simple assault;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;1725;Crimes against property:
+12;Intimidation;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;1807;Crimes against property:
+12;Intimidation;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;2283;Crimes against property:
+12;Intimidation;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;2283;Crimes against property:
+12;Intimidation;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;1588;Crimes against property:
+12;Human Trafficking, Commercial Sex Acts;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;1;Crimes against property:
+12;Human Trafficking, Commercial Sex Acts;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;1;Crimes against property:
+12;Human Trafficking, Commercial Sex Acts;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;1;Crimes against property:
+12;Human Trafficking, Commercial Sex Acts;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;0;Crimes against property:
+12;Other;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;26;NA
+12;Other;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;27;NA
+12;Other;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;27;NA
+12;Other;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;33;NA
+12;Crimes against property:;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;3115;Crimes against property:
+12;Crimes against property:;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;3115;Crimes against property:
+12;Crimes against property:;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;3506;Crimes against property:
+12;Crimes against property:;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;1933;Crimes against property:
+12;Robbery;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;157;Crimes against property:
+12;Robbery;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;157;Crimes against property:
+12;Robbery;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;171;Crimes against property:
+12;Robbery;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;288;Crimes against property:
+12;Burglary;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;145;Crimes against property:
+12;Burglary;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;145;Crimes against property:
+12;Burglary;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;185;Crimes against property:
+12;Burglary;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;98;Crimes against property:
+12;Larceny-theft;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;326;Crimes against property:
+12;Larceny-theft;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;326;Crimes against property:
+12;Larceny-theft;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;379;Crimes against property:
+12;Larceny-theft;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;249;Crimes against property:
+12;Motor vehicle theft;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;41;Crimes against property:
+12;Motor vehicle theft;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;41;Crimes against property:
+12;Motor vehicle theft;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;44;Crimes against property:
+12;Motor vehicle theft;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;25;Crimes against property:
+12;Arson;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;42;Crimes against property:
+12;Arson;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;42;Crimes against property:
+12;Arson;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;59;Crimes against property:
+12;Arson;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;34;Crimes against property:
+12;Destruction/damage/vandalism;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;2325;Crimes against property:
+12;Destruction/damage/vandalism;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;2325;Crimes against property:
+12;Destruction/damage/vandalism;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;2585;Crimes against property:
+12;Destruction/damage/vandalism;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;1182;Crimes against property:
+12;Other;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;79;NA
+12;Other;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;79;NA
+12;Other;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;83;NA
+12;Other;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;57;NA
+12;Crimes against society;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;incidents;238;Crimes against society:
+12;Crimes against society;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;offenses;238;Crimes against society:
+12;Crimes against society;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;victims;238;Crimes against society:
+12;Crimes against society;2017;data/FBI//2017/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2017.xls;known_offenders;284;Crimes against society:
+13;Total;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;7120;Total
+13;Total;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;8496;Total
+13;Total;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;8819;Total
+13;Total;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;6266;Total
+13;Crimes against persons:;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;4571;Crimes against persons:
+13;Crimes against persons:;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;5566;Crimes against persons:
+13;Crimes against persons:;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;5566;Crimes against persons:
+13;Crimes against persons:;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;4738;Crimes against persons:
+13;Murder and nonnegligent manslaughter;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;13;Crimes against property:
+13;Murder and nonnegligent manslaughter;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;24;Crimes against property:
+13;Murder and nonnegligent manslaughter;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;24;Crimes against property:
+13;Murder and nonnegligent manslaughter;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;12;Crimes against property:
+13;Rape;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;22;Crimes against property:
+13;Rape;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;22;Crimes against property:
+13;Rape;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;22;Crimes against property:
+13;Rape;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;21;Crimes against property:
+13;Aggravated assault;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;818;Crimes against property:
+13;Aggravated assault;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;1026;Crimes against property:
+13;Aggravated assault;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;1026;Crimes against property:
+13;Aggravated assault;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;997;Crimes against property:
+13;Simple assault;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;1653;Crimes against property:
+13;Simple assault;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;1895;Crimes against property:
+13;Simple assault;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;1895;Crimes against property:
+13;Simple assault;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;1991;Crimes against property:
+13;Intimidation;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;2039;Crimes against property:
+13;Intimidation;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;2560;Crimes against property:
+13;Intimidation;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;2560;Crimes against property:
+13;Intimidation;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;1688;Crimes against property:
+13;Other;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;26;NA
+13;Other;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;39;NA
+13;Other;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;39;NA
+13;Other;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;29;NA
+13;Crimes against property:;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;2641;Crimes against property:
+13;Crimes against property:;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;2641;Crimes against property:
+13;Crimes against property:;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;2964;Crimes against property:
+13;Crimes against property:;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;1627;Crimes against property:
+13;Robbery;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;132;Crimes against property:
+13;Robbery;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;132;Crimes against property:
+13;Robbery;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;169;Crimes against property:
+13;Robbery;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;203;Crimes against property:
+13;Burglary;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;131;Crimes against property:
+13;Burglary;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;131;Crimes against property:
+13;Burglary;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;166;Crimes against property:
+13;Burglary;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;76;Crimes against property:
+13;Larceny-theft;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;330;Crimes against property:
+13;Larceny-theft;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;330;Crimes against property:
+13;Larceny-theft;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;357;Crimes against property:
+13;Larceny-theft;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;198;Crimes against property:
+13;Motor vehicle theft;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;42;Crimes against property:
+13;Motor vehicle theft;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;42;Crimes against property:
+13;Motor vehicle theft;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;43;Crimes against property:
+13;Motor vehicle theft;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;18;Crimes against property:
+13;Arson;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;43;Crimes against property:
+13;Arson;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;43;Crimes against property:
+13;Arson;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;53;Crimes against property:
+13;Arson;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;22;Crimes against property:
+13;Destruction/damage/vandalism;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;1876;Crimes against property:
+13;Destruction/damage/vandalism;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;1876;Crimes against property:
+13;Destruction/damage/vandalism;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;2080;Crimes against property:
+13;Destruction/damage/vandalism;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;1052;Crimes against property:
+13;Other;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;87;NA
+13;Other;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;87;NA
+13;Other;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;96;NA
+13;Other;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;58;NA
+13;Crimes against society;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;incidents;289;Crimes against society:
+13;Crimes against society;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;offenses;289;Crimes against society:
+13;Crimes against society;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;victims;289;Crimes against society:
+13;Crimes against society;2018;data/FBI//2018/Tables And Data Declarations/Table 2/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2018.xls;known_offenders;323;Crimes against society:
+14;Total;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;7314;Total
+14;Total;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;8559;Total
+14;Total;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;8812;Total
+14;Total;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;6406;Total
+14;Crimes against persons:;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;4526;Crimes against persons:
+14;Crimes against persons:;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;5512;Crimes against persons:
+14;Crimes against persons:;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;5512;Crimes against persons:
+14;Crimes against persons:;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;4857;Crimes against persons:
+14;Murder and nonnegligent manslaughter;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;18;Crimes against property:
+14;Murder and nonnegligent manslaughter;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;51;Crimes against property:
+14;Murder and nonnegligent manslaughter;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;51;Crimes against property:
+14;Murder and nonnegligent manslaughter;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;19;Crimes against property:
+14;Rape;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;30;Crimes against property:
+14;Rape;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;30;Crimes against property:
+14;Rape;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;30;Crimes against property:
+14;Rape;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;36;Crimes against property:
+14;Aggravated assault;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;866;Crimes against property:
+14;Aggravated assault;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;1158;Crimes against property:
+14;Aggravated assault;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;1158;Crimes against property:
+14;Aggravated assault;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;1094;Crimes against property:
+14;Simple assault;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;1730;Crimes against property:
+14;Simple assault;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;2023;Crimes against property:
+14;Simple assault;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;2023;Crimes against property:
+14;Simple assault;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;2030;Crimes against property:
+14;Intimidation;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;1849;Crimes against property:
+14;Intimidation;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;2206;Crimes against property:
+14;Intimidation;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;2206;Crimes against property:
+14;Intimidation;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;1640;Crimes against property:
+14;Human trafficking, commercial sex acts;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;2;Crimes against property:
+14;Human trafficking, commercial sex acts;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;3;Crimes against property:
+14;Human trafficking, commercial sex acts;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;3;Crimes against property:
+14;Human trafficking, commercial sex acts;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;3;Crimes against property:
+14;Other;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;31;NA
+14;Other;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;41;NA
+14;Other;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;41;NA
+14;Other;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;35;NA
+14;Crimes against property:;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;2811;Crimes against property:
+14;Crimes against property:;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;2811;Crimes against property:
+14;Crimes against property:;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;3064;Crimes against property:
+14;Crimes against property:;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;1598;Crimes against property:
+14;Robbery;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;125;Crimes against property:
+14;Robbery;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;125;Crimes against property:
+14;Robbery;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;149;Crimes against property:
+14;Robbery;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;227;Crimes against property:
+14;Burglary;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;114;Crimes against property:
+14;Burglary;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;114;Crimes against property:
+14;Burglary;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;129;Crimes against property:
+14;Burglary;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;64;Crimes against property:
+14;Larceny-theft;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;284;Crimes against property:
+14;Larceny-theft;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;284;Crimes against property:
+14;Larceny-theft;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;297;Crimes against property:
+14;Larceny-theft;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;179;Crimes against property:
+14;Motor vehicle theft;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;19;Crimes against property:
+14;Motor vehicle theft;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;19;Crimes against property:
+14;Motor vehicle theft;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;19;Crimes against property:
+14;Motor vehicle theft;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;9;Crimes against property:
+14;Arson;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;60;Crimes against property:
+14;Arson;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;60;Crimes against property:
+14;Arson;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;78;Crimes against property:
+14;Arson;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;40;Crimes against property:
+14;Destruction/damage/vandalism;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;2152;Crimes against property:
+14;Destruction/damage/vandalism;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;2152;Crimes against property:
+14;Destruction/damage/vandalism;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;2316;Crimes against property:
+14;Destruction/damage/vandalism;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;1045;Crimes against property:
+14;Other;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;57;NA
+14;Other;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;57;NA
+14;Other;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;76;NA
+14;Other;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;34;NA
+14;Crimes against society;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;incidents;236;Crimes against society:
+14;Crimes against society;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;236;Crimes against society:
+14;Crimes against society;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;236;Crimes against society:
+14;Crimes against society;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;279;Crimes against society:
