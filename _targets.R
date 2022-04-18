@@ -19,7 +19,7 @@ options(pillar.sigfig = 5)
 main_packages = c("cli", "crayon", "furrr", "patchwork", "renv", "tarchetypes", "targets", "testthat")
 data_preparation_packages = c("dplyr", "forcats", "here", "janitor", "purrr", "readr", "stringr", "tibble", "tidyr") #"safer", 
 data_analysis_packages = c("broom", "broom.mixed", "emmeans", "gmodels", "gt", "gtsummary", "irr", "lme4", "parameters", "performance", "psych", "sjPlot") #"report"
-data_visualization_packages = c("DT", "ggalluvial", "ggridges", "plotly", "htmlwidgets")
+data_visualization_packages = c("DT", "ggalluvial", "ggridges", "htmlwidgets", "plotly")
 non_declared_dependencies = c("qs", "visNetwork", "webshot", "performance", "shinyWidgets")
 extra_packages = c("shrtcts")
 packages_to_load = c(main_packages, data_preparation_packages, data_analysis_packages, data_visualization_packages, non_declared_dependencies, extra_packages)
@@ -47,12 +47,25 @@ targets <- list(
   
   # Diccionaries
   tar_target(DICC_FBI_t1, prepare_DICC_FBI_t1()),
+  tar_target(DICC_FBI_t2, prepare_DICC_FBI_t2()),
   
   # Data preparation
-  tar_target(DF_FBI_t1, prepare_data_FBI_t1(folder = "data/FBI/", diccionary = DICC_FBI_t1, UNZIPPED = UNZIP_FBI)),
+  # tar_target(DF_FBI_t1, prepare_data_FBI_t1(folder = "data/FBI/", diccionary = DICC_FBI_t1, UNZIPPED = UNZIP_FBI)),
+  tar_target(DF_FBI_t1_raw, prepare_data_FBI(folder = "data/FBI/", table = 1, keyword = "Bias motivation", UNZIPPED = UNZIP_FBI)),
+  tar_target(DF_FBI_t2_raw, prepare_data_FBI(folder = "data/FBI/", table = 2, keyword = "Offense type", UNZIPPED = UNZIP_FBI)),
+  
+  tar_target(DF_FBI_t1, prepare_t1(DF = DF_FBI_t1_raw, diccionary = DICC_FBI_t1)),
+  tar_target(DF_FBI_t2, prepare_t2(DF = DF_FBI_t2_raw, diccionary = DICC_FBI_t2)),
+  
+  tar_target(DF_FBI_t2_surface_ALL, prepare_data_FBI_t2_surface(DF = DF_FBI_t2, supra_sub = "sub", filter_offense_supra = "*")),
+  tar_target(PLOTS_FBI_t2_surface_ALL, plot_FBI_t1_surface(DF = DF_FBI_t2_surface_ALL, output_suffix = "ALL", table = 2)),
+  
+  
   
   # Surface plots Data preparation
     # DF_FBI_t1 %>% distinct(bias_supra)
+  tar_target(DF_FBI_t1_surface_ALL, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "*")),
+  tar_target(DF_FBI_t1_surface_ALL_supra, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "supra", filter_bias_supra = "*")),
   tar_target(DF_FBI_t1_surface_sexual, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Sexual Orientation:")),
   tar_target(DF_FBI_t1_surface_religion, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Religion:")),
   tar_target(DF_FBI_t1_surface_gender, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Gender:")),
@@ -60,11 +73,14 @@ targets <- list(
   tar_target(DF_FBI_t1_surface_race, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Race/Ethnicity/Ancestry:")),
   
   # Surface plots
-  tar_target(PLOTS_FBI_t1_surface_sexual, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_sexual, output_suffix = "SexualOrientation")),
-  tar_target(PLOTS_FBI_t1_surface_religion, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_religion, output_suffix = "Religion")),
-  tar_target(PLOTS_FBI_t1_surface_gender, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_gender, output_suffix = "Gender")),
-  tar_target(PLOTS_FBI_t1_surface_GenderIdentity, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_GenderIdentity, output_suffix = "GenderIdentity")),
-  tar_target(PLOTS_FBI_t1_surface_race, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_race, output_suffix = "Race")),
+  tar_target(PLOTS_FBI_t1_surface_ALL, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_ALL, output_suffix = "ALL", table = 1)),
+  tar_target(PLOTS_FBI_t1_surface_ALL_supra, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_ALL_supra, output_suffix = "ALL_supra", table = 1)),
+  # 
+  tar_target(PLOTS_FBI_t1_surface_sexual, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_sexual, output_suffix = "SexualOrientation", table = 1)),
+  tar_target(PLOTS_FBI_t1_surface_religion, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_religion, output_suffix = "Religion", table = 1)),
+  tar_target(PLOTS_FBI_t1_surface_gender, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_gender, output_suffix = "Gender", table = 1)),
+  tar_target(PLOTS_FBI_t1_surface_GenderIdentity, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_GenderIdentity, output_suffix = "GenderIdentity", table = 1)),
+  tar_target(PLOTS_FBI_t1_surface_race, plot_FBI_t1_surface(DF = DF_FBI_t1_surface_race, output_suffix = "Race", table = 1)),
   
   
   # PLOTS
