@@ -2,8 +2,9 @@ prepare_DICC_FBI_t1 <- function() {
 
   DF_supra = tibble(
     bias_supra = c("Total", 
-                   "Single-Bias",
-                   "Multiple-Bias",
+                   "Single-Bias:",
+                   "Multiple-Bias:",
+                   "Ethnicity:", # CHECK
                    "Race/Ethnicity/Ancestry:",
                    "Religion:",
                    "Sexual Orientation:",
@@ -11,8 +12,9 @@ prepare_DICC_FBI_t1 <- function() {
                    "Gender:",
                    "Gender Identity:"),
     bias_motivation = c("Total", 
-                        "Single-Bias",
-                        "Multiple-Bias",
+                        "Single-Bias:",
+                        "Multiple-Bias:",
+                        "Ethnicity:", # CHECK
                         "Race/Ethnicity/Ancestry:",
                         "Religion:",
                         "Sexual Orientation:",
@@ -23,6 +25,8 @@ prepare_DICC_FBI_t1 <- function() {
   DF_race = tibble(
     bias_supra = c("Race/Ethnicity/Ancestry:"),
     bias_motivation = c(
+      "Asian/Pacific Islander", # CHECK
+      "Not Hispanic/Latino3", # CHECK
       "White",
       "African American",
       "Black/African American",

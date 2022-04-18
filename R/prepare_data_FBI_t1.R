@@ -72,8 +72,8 @@ prepare_data_FBI_t1 <- function(folder, diccionary, UNZIPPED) {
              grepl("^Islamic$", bias_motivation) ~ gsub("Islamic", "Islamic (Muslim)", bias_motivation),
              
              # Simplificaciones
-             grepl("Single-Bias Incidents", bias_motivation) ~ "Single-Bias",
-             grepl("Multiple-Bias Incidents", bias_motivation) ~ "Multiple-Bias",
+             grepl("Single-Bias Incidents", bias_motivation) ~ "Single-Bias:",
+             grepl("Multiple-Bias Incidents", bias_motivation) ~ "Multiple-Bias:",
              grepl(" or ", bias_motivation) ~ gsub(" or ", "/", bias_motivation),
              TRUE ~ bias_motivation
            )) %>% 
