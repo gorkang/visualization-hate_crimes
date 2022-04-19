@@ -1,4 +1,4 @@
-unzip_FBI <- function(zip_folder = "data_raw/FBI/", output_folder = "data/FBI/", SETUP) {
+unzip_raw_files <- function(zip_folder = "data_raw/FBI/", output_folder = "data/FBI/", SETUP) {
   
   # List zips
   zips = list.files(zip_folder, recursive = TRUE, pattern = "zip", full.names = TRUE)
