@@ -1,10 +1,14 @@
-prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra, filter_bias_motivation) {
+prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra, filter_bias_motivation, absolute_relative = "absolute") {
   
   # DEBUG
     # DF = DF_FBI_t1
     # supra_sub = "sub"
     # filter_bias_supra = "*"
     # filter_bias_motivation = NULL
+  # absolute_relative = "absolute"
+  
+  # filter_bias_supra = "Race/Ethnicity/Ancestry:"
+  # absolute_relative = "relative"
   
   # Key to include all
   if (filter_bias_supra == "*") {
@@ -42,7 +46,6 @@ prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra
       # Use supra or sub categories
       {if (supra_sub == "sub") filter(., !grepl(":", bias_motivation)) else filter(., grepl(":", bias_motivation))} %>% 
       
-      # filter(grepl(":", bias_motivation)) %>% # Keep only supra
       filter(!bias_motivation %in% c("Total", "Single-Bias")) %>% # Avoid total categories (Multiple-bias does not contain anything)
       filter(!bias_motivation %in% c("Asian/Pacific Islander", "Asian", "Native Hawaiian/Other Pacific Islander", "Arab")) %>% 
       filter(bias_motivation %in% num_years_filter$bias_motivation) %>%
@@ -52,10 +55,11 @@ prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra
     DF_filtered = 
       DF %>% 
       # SUPRA FILTER
-      # filter(bias_supra %in% c("Gender:")) %>%
-      # filter(!grepl(":", bias_motivation)) %>% # Avoid supra
+      # filter(bias_supra %in% c(filter_bias_supra)) %>%
+      
+      # Use supra or sub categories
       {if (supra_sub == "sub") filter(., !grepl(":", bias_motivation)) else filter(., grepl(":", bias_motivation))} %>% 
-      # filter(grepl(":", bias_motivation)) %>% # Keep only supra
+      
       filter(!bias_motivation %in% c("Total", "Single-Bias")) %>% # Avoid total categories (Multiple-bias does not contain anything)
       filter(!bias_motivation %in% c("Asian/Pacific Islander", "Asian", "Native Hawaiian/Other Pacific Islander", "Arab")) %>% 
       filter(bias_motivation %in% num_years_filter$bias_motivation) %>%
@@ -63,17 +67,60 @@ prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra
     
   }
   
-  # DF_filtered %>% distinct(year, bias_motivation, order) %>% pivot_wider(names_from = year, values_from = order)
   
+  if (absolute_relative == "relative") {
+    # DF_filtered %>% distinct(bias_motivation)
+    
+    # DATA APPROXIMATION FROM 2020
+    total_population = 330000000
+    DF_pct_population = 
+      tibble(bias_motivation = c("White", "African American", "American Indian/Alaska Native", "Multiple Races, Group", "Hispanic/Latino"),
+           `2006` = c(.76, .13, .013, .025, .18),
+           `2007` = c(.76, .13, .013, .025, .18),
+           `2008` = c(.76, .13, .013, .025, .18),
+           `2009` = c(.76, .13, .013, .025, .18),
+           `2010` = c(.76, .13, .013, .025, .18),
+           `2011` = c(.76, .13, .013, .025, .18),
+           `2012` = c(.76, .13, .013, .025, .18),
+           `2013` = c(.76, .13, .013, .025, .18),
+           `2014` = c(.76, .13, .013, .025, .18),
+           `2015` = c(.76, .13, .013, .025, .18),
+           `2016` = c(.76, .13, .013, .025, .18),
+           `2017` = c(.76, .13, .013, .025, .18),
+           `2018` = c(.76, .13, .013, .025, .18),
+           `2019` = c(.76, .13, .013, .025, .18)) %>% 
+      pivot_longer(cols = `2006`:`2019`, names_to = "year", values_to = "pct_population") %>% 
+      mutate(year = as.integer(year))
+
+    DF_filtered =
+      DF_filtered %>% 
+      left_join(DF_pct_population, by = c("bias_motivation", "year")) %>% 
+      mutate(value = 
+               case_when(
+                 bias_motivation == "White" ~ ((value / (total_population * pct_population)) * 100000),
+                 bias_motivation == "African American" ~ ((value / (total_population * pct_population)) * 100000),
+                 bias_motivation == "American Indian/Alaska Native" ~ ((value / (total_population * pct_population)) * 100000),
+                 bias_motivation == "Multiple Races, Group" ~ ((value / (total_population * pct_population)) * 100000),
+                 bias_motivation == "Hispanic/Latino" ~ ((value / (total_population * pct_population)) * 100000),
+                 TRUE ~ NA_real_
+               )) %>% 
+      select(-pct_population)
+    # DF_filtered %>% distinct(year, bias_motivation, order) %>% pivot_wider(names_from = year, values_from = order)
+  }
   
   # WIDE --------------------------------------------------------------------
+  
+  # Mean per group/year to order the plot
+  DF_mean = DF_filtered %>% group_by(bias_motivation) %>% summarise(MEAN = mean(value)) %>% arrange(desc(MEAN))
   
   DF_wide =
     DF_filtered %>%
     select(bias_motivation, year, value) %>% 
+    left_join(DF_mean, by = "bias_motivation") %>% 
     
     # Arrange by value. IMPORTANT: arrange(year) must be last arrange
     arrange(desc(value)) %>%
+    arrange(desc(MEAN)) %>% select(-MEAN) %>% 
     arrange(year) %>%
     pivot_wider(names_from = year, values_from = "value") 
     
@@ -85,7 +132,7 @@ prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra
     #          ))
   
   
-  
+  # REVIEW: Insert BR to add line jump to long labels
   DF_wide = insert_BR(DF_wide, name_label = "bias_motivation", where = 16)
 
   # Matrix ------------------------------------------------------------------
