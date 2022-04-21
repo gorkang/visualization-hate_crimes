@@ -29,62 +29,72 @@ ui <- fluidPage(theme = shinytheme("flatly"),
 
     sidebarLayout(
       
-      sidebarPanel(width = 1,
-                   
-                   # Get screen dimensions using js
-                   tags$head(tags$script('
-                                  var dimension = [0, 0];
-                                  $(document).on("shiny:connected", function(e) {
-                                      dimension[0] = window.innerWidth;
-                                      dimension[1] = window.innerHeight;
-                                      Shiny.onInputChange("dimension", dimension);
-                                  });
-                                  $(window).resize(function(e) {
-                                      dimension[0] = window.innerWidth;
-                                      dimension[1] = window.innerHeight;
-                                      Shiny.onInputChange("dimension", dimension);
-                                  });')
-                             ),
-                   
-                   selectInput(inputId = "bias_selected",
-                               label = "Bias supra:", 
-                               choices = c("*", biases), 
-                               selected = "*", 
-                               selectize = FALSE,
-                               size = length(biases) + 2),
-         
-                   selectInput(inputId = "arrange_by",
-                               label = "Arrange by:", 
-                               choices = c("bias_motivation", "bias_supra", "mean_value"), 
-                               selected = "mean_value"),
-                   
-                   selectInput(inputId = "colorscale",
-                               label = "Colorscale:", 
-                               choices = c("Viridis", "Blackbody","Bluered","Blues","Cividis","Earth","Electric","Greens","Greys","Hot","Jet","Picnic","Portland","Rainbow","RdBu","Reds","YlGnBu","YlOrRd"), 
-                               selected = "Viridis"),
-                   
-                   # TESTING
-                   hr(),
-                   span(h6("TESTING: 'Relative' only implemented with Race. Data is an approximation"), style = "color:darkred"),
-                   
-                   selectInput(inputId = "absolute_relative",
-                               label = "Absolute or relative data:", 
-                               choices = c("absolute", "relative"), 
-                               selected = "absolute", 
-                               selectize = FALSE),
-                   
-                   
-                   # DATA SOURCE
-                   hr(),
-                   div(HTML("<B>Data from:</B> <BR><a href=\"https://www.fbi.gov/services/cjis/ucr/publications#Hate-Crime%20Statistics/\", target = \"_blank\">'Hate crime statistics, FBI'</a>"),
-                       align = "left"),
-                   
-                   
-                   
-                   
-                   
-                   
+      sidebarPanel(width = 12, 
+                   fluidRow(
+                     
+                   # shiny::column(width = 2,
+                     # Get screen dimensions using js
+                     tags$head(tags$script('
+                                    var dimension = [0, 0];
+                                    $(document).on("shiny:connected", function(e) {
+                                        dimension[0] = window.innerWidth;
+                                        dimension[1] = window.innerHeight;
+                                        Shiny.onInputChange("dimension", dimension);
+                                    });
+                                    $(window).resize(function(e) {
+                                        dimension[0] = window.innerWidth;
+                                        dimension[1] = window.innerHeight;
+                                        Shiny.onInputChange("dimension", dimension);
+                                    });')
+                               ),
+                   # ),
+                   shiny::column(width = 2,
+                     selectInput(inputId = "bias_selected",
+                                 label = "Bias supra:", 
+                                 choices = c("*", biases), 
+                                 selected = "*", 
+                                 selectize = FALSE,
+                                 size = 1), #length(biases) + 2),
                    ),
+                   
+                   shiny::column(width = 2,
+                     selectInput(inputId = "arrange_by",
+                                 label = "Arrange by:", 
+                                 choices = c("bias_motivation", "bias_supra", "mean_value"), 
+                                 selected = "mean_value"),
+                     
+                   ),
+                   shiny::column(width = 2,
+                     selectInput(inputId = "colorscale",
+                                 label = "Colorscale:", 
+                                 choices = c("Viridis", "Blackbody","Bluered","Blues","Cividis","Earth","Electric","Greens","Greys","Hot","Jet","Picnic","Portland","Rainbow","RdBu","Reds","YlGnBu","YlOrRd"), 
+                                 selected = "Viridis"),
+                   ),
+                   
+                   shiny::column(width = 1, offset = 1,
+                   # TESTING
+                     # hr(),
+                     span(h6("(!): 'Relative' only works with Race"), style = "color:darkred"),
+                   ),
+                   
+                   shiny::column(width = 2,
+                     selectInput(inputId = "absolute_relative",
+                                 label = "Absolute or relative data:", 
+                                 choices = c("absolute", "relative"), 
+                                 selected = "absolute", 
+                                 selectize = FALSE),
+                     
+                   ),
+                   
+                   shiny::column(width = 2,
+                     # DATA SOURCE
+                     # hr(),
+                     div(HTML("<B>Data:</B> <a href=\"https://www.fbi.gov/services/cjis/ucr/publications#Hate-Crime%20Statistics/\", target = \"_blank\">'Hate crime statistics, FBI'</a>"),
+                         align = "left"),
+                   ),
+                   ),
+      ),
+                   
       
       mainPanel(width = 11,
                 
@@ -120,7 +130,7 @@ server <- function(input, output) {
           table = 1,
           save_outputs = FALSE,
           width = (0.95 * as.numeric(input$dimension[1])),
-          height = as.numeric(input$dimension[2]),
+          height = (0.95 * as.numeric(input$dimension[2])),
           colorscale = input$colorscale,
           absolute_relative = input$absolute_relative
         )
