@@ -9,8 +9,8 @@ prepare_data_FBI <- function(folder = "data/FBI/", table, keyword, UNZIPPED) {
     KEY_ROWS = map_int(all_files$file,
             ~ {
               # .x = all_files$file[8]
-              cli::cli_alert(.x)
-              DF1 = readxl::read_excel(.x, col_names = "ONE", range = "A1:A5")
+              # cli::cli_alert(.x)
+              DF1 = suppressMessages(readxl::read_excel(.x, col_names = "ONE", range = "A1:A5"))
               initial_row = which(DF1$ONE == keyword) # Try exact match
               # if fails, try regexp (allows to use two keywords separated by |)
               # If we find more than one keyword, we keep last()
@@ -79,14 +79,14 @@ prepare_data_FBI <- function(folder = "data/FBI/", table, keyword, UNZIPPED) {
       1:length(all_files_skips$file) %>% 
       map_df(~ 
                {
-                 cli::cli_alert(.x)
+                 # cli::cli_alert(.x)
                  
                  # readxl::read_excel(all_files_skips$file[.x], skip = 0)
-                 DF_temp = readxl::read_excel(all_files_skips$file[.x], skip = all_files_skips$skips[.x]) %>% 
+                 DF_temp = suppressMessages(readxl::read_excel(all_files_skips$file[.x], skip = all_files_skips$skips[.x])) %>% 
                    janitor::remove_empty(which = "cols") %>% 
                    clean_names_columns(.)
                  
-                 cli::cli_alert(str(DF_temp))
+                 # cli::cli_alert(str(DF_temp))
                  DF_temp
                 },
                  .id = "order") %>% 
