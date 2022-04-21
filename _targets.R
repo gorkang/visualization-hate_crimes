@@ -71,9 +71,11 @@ targets <- list(
 
   ## FBI ---------------------------------------------------------------------
 
+  # SHOULD USE tarchetypes::tar_map() or similar to create all programatically
+  # DF_FBI_t1 %>% distinct(bias_supra)
+  
   
   # Surface plots Data preparation
-    # DF_FBI_t1 %>% distinct(bias_supra)
   tar_target(DF_FBI_t1_surface_ALL, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "*")),
   tar_target(DF_FBI_t1_surface_ALL_supra, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "supra", filter_bias_supra = "*")),
   tar_target(DF_FBI_t1_surface_sexual, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Sexual Orientation:")),
