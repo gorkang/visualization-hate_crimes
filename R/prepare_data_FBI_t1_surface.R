@@ -1,11 +1,17 @@
-prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra, filter_bias_motivation, absolute_relative = "absolute") {
+prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra, filter_bias_motivation, absolute_relative = "absolute", arrange_by = "mean_value") {
   
   # DEBUG
     # DF = DF_FBI_t1
     # supra_sub = "sub"
     # filter_bias_supra = "*"
     # filter_bias_motivation = NULL
-  # absolute_relative = "absolute"
+    # absolute_relative = "absolute"
+    # arrange_by = "bias_motivation"
+  
+  # CHECK
+  arrange_by_allowed = c("bias_motivation", "bias_supra", "mean_value")
+  if (!arrange_by %in% arrange_by_allowed) cli::cli_abort("arrange_by needs to be one of: {arrange_by_allowed}")
+  if (arrange_by == "mean_value") arrange_by = "desc(mean_value)"
   
   # filter_bias_supra = "Race/Ethnicity/Ancestry:"
   # absolute_relative = "relative"
@@ -111,17 +117,23 @@ prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra
   # WIDE --------------------------------------------------------------------
   
   # Mean per group/year to order the plot
-  DF_mean = DF_filtered %>% group_by(bias_motivation) %>% summarise(MEAN = mean(value)) %>% arrange(desc(MEAN))
+  DF_mean = DF_filtered %>% group_by(bias_motivation) %>% summarise(mean_value = mean(value))# %>% arrange(desc(mean_value))
+  # arrange_by = "mean_value"
+  # arrange_by = "desc(mean_value)"
+  # arrange_by = "bias_motivation"
+  # arrange_by = "bias_supra"
+  
   
   DF_wide =
     DF_filtered %>%
-    select(bias_motivation, year, value) %>% 
-    left_join(DF_mean, by = "bias_motivation") %>% 
+    select(bias_motivation, year, value, bias_supra) %>% 
+    left_join(DF_mean, by = "bias_motivation") %>%
     
     # Arrange by value. IMPORTANT: arrange(year) must be last arrange
-    arrange(desc(value)) %>%
-    arrange(desc(MEAN)) %>% select(-MEAN) %>% 
+    
+    arrange(!!!rlang::parse_exprs(arrange_by)) %>% select(-mean_value, -bias_supra) %>% 
     arrange(year) %>%
+    
     pivot_wider(names_from = year, values_from = "value") 
     
     # Truncate long names. TODO: better to manually set names?
