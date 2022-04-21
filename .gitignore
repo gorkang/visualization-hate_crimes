@@ -2,3 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
+.Renviron
+TODO.md
+data/
+dev/
+rsconnect/
+docs/
+_targets/
