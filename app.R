@@ -74,7 +74,7 @@ ui <- fluidPage(theme = shinytheme("flatly"),
                    shiny::column(width = 1, offset = 1,
                    # TESTING
                      # hr(),
-                     span(h6("(!): 'Relative' only works with Race"), style = "color:darkred"),
+                     span(h6("(!): 'Relative' data is aprox."), style = "color:darkred"),
                    ),
                    
                    shiny::column(width = 2,
