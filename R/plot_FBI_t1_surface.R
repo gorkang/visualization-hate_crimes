@@ -3,8 +3,8 @@ plot_FBI_t1_surface <- function(DF, output_suffix, table, save_outputs = TRUE, h
   # DEBUG
   # DF = DF_matrix
   
-  # targets::tar_load(DF_FBI_t1_surface_ALL)
-  # DF = DF_FBI_t1_surface_ALL
+  # targets::tar_load(DF_FBI_t1_surface_sexual)
+  # DF = DF_FBI_t1_surface_sexual
   # output_suffix = "ALL"
   # table = 1
   # colorscale = "Viridis"
@@ -16,52 +16,46 @@ plot_FBI_t1_surface <- function(DF, output_suffix, table, save_outputs = TRUE, h
   # DF = DF_FBI_t1_surface_gender
   # output_suffix = "Race"
   # table = 1
-  
-  # PLOT --------------------------------------------------------------------
-  
+
+    
   # https://plotly-r.com/index.html
   # https://plotly.com/r/reference/#surface
   
-  # Y axis labels are too LONG
-  # - We can shorten, or add a br to make them two lines, ...
   
-  # y_axis_labels = rownames(DF) #gsub(" <br> ", " ", rownames(DF))
-  y_axis_labels = gsub(" <br> ", " ", rownames(DF))
+  # Manual parameters ----------------------------------------------------
   
-  # Fill to make all same size. Does not work
-  # m_char <- max(nchar(y_axis_labels)) 
-  # y_axis_labels = stringr::str_pad(y_axis_labels, m_char, side = "right", pad = "_") 
-  
-  # y_axis_labels = 
-  #   tibble(bias_motivation = stringr::str_sub(gsub(" <br> ", " ", rownames(DF)))) %>% 
-  #   mutate(bias_motivation_short =
-  #            case_when(
-  #              str_length(bias_motivation) > 16 ~  paste0(stringr::str_sub(bias_motivation, end = 16), "..."),
-  #              TRUE ~ bias_motivation
-  #              )) %>% 
-  #   pull(bias_motivation_short)
-  
-  name_z = ifelse(absolute_relative == "absolute", "Incidents", "Incidents/100,000")
-  
-  spike_color = "#111111"
-  highlight_color = "#41a7b3"
-  hover_background = "rgba(255,255,255,0.75)" # OR "#ffffff"
-  tick_labels_color = "#222222"
-  show_spikes = FALSE # Straight lines. Not very useful if we have highlight
-
-  # x_axis = as.Date(colnames(DF), format = "%Y")
-  x_axis = colnames(DF)
-  y_axis = y_axis_labels
-  z_axis = DF # OR t(DF)
+    # Values for each axis
+    x_axis = colnames(DF) # x_axis = as.Date(colnames(DF), format = "%Y")
+    y_axis = rownames(DF) # GET RID OF BR in labels: # y_axis_labels = gsub(" <br> ", " ", rownames(DF))
+    z_axis = DF # OR t(DF)
     
-  n_ticks_x = length(x_axis)
-  n_ticks_y = length(y_axis_labels)
+    # Visual characteristics
+    show_spikes = FALSE # Straight lines. Not very useful if we have highlight
+    
+    # COLORS
+    spike_color = "#111111"
+    highlight_color = "#41a7b3"
+    hover_background = "rgba(255,255,255,0.75)" # OR "#ffffff"
+    tick_labels_color = "#222222"
   
-  
-  # Aspect ratio of plot depends on nunmber of lables in y axis
-  aspect_ratio_y = ifelse(length(y_axis) > 2, 2, 1)
-  
+    # We can define our own thresholds and colors  
+      # color_thresholds = seq(0, 1, length.out = 10)
+      # color_names = viridisLite::viridis(10, alpha = 1, begin = 0, end = 1, direction = 1, option = "D")# c("white", "grey", "black", "yellowgreen", "#7fff00")
+    
 
+  # Automatic parameters ----------------------------------------------------
+  
+    name_z = ifelse(absolute_relative == "absolute", "Incidents", "Incidents/100,000")
+    
+    # Number of ticks  
+    n_ticks_x = length(x_axis)
+    n_ticks_y = length(y_axis)
+    
+    # Aspect ratio of plot depends on nunmber of lables in y axis
+    aspect_ratio_y = ifelse(length(y_axis) > 2, 2, 1)
+    
+
+  
   # plot_ly --------------------------------------------------------------------
 
   PLOT = plotly::plot_ly(height = height, width = width,
@@ -69,11 +63,22 @@ plot_FBI_t1_surface <- function(DF, output_suffix, table, save_outputs = TRUE, h
     y = ~ y_axis,
     z = ~ z_axis,
     type = "surface",
-    # colorbar = list(title = "Incidents", ticks = "outside"),
-    colorscale = colorscale, # Blackbody,Bluered,Blues,Cividis,Earth,Electric,Greens,Greys,Hot,Jet,Picnic,Portland,Rainbow,RdBu,Reds,Viridis,YlGnBu,YlOrRd.
+    connectgaps = FALSE, # FILLS NA with 0 # Freezes when overing over NA value
+    
     showlegend = FALSE,
     showscale = FALSE, # legend dissapears
-    connectgaps = FALSE, # FILLS NA with 0 # Freezes when overing over NA value
+    hidesurface = FALSE, # Actual colored surface
+    
+    
+    # colorbar = list(title = "Incidents", ticks = "outside"),
+    
+    # IF USING A COMMON COLOR PALLETE TO ALL PLOTS
+    # REVIEW: If we want a common scale for all plots, we need to define the common reference (all data, inside each supra group,... ?)
+      # cmin = 0, 
+      # cmax = max(z_axis, na.rm = TRUE), # Define min and max values for the extreme colors
+      # colorscale = list(color_thresholds, color_names), # color_thresholds, color_names defined above
+    
+    colorscale = colorscale, # Blackbody,Bluered,Blues,Cividis,Earth,Electric,Greens,Greys,Hot,Jet,Picnic,Portland,Rainbow,RdBu,Reds,Viridis,YlGnBu,YlOrRd.
     opacity = 1, # Transparency of surface 0-1
     
     # Template for hover
@@ -82,9 +87,8 @@ plot_FBI_t1_surface <- function(DF, output_suffix, table, save_outputs = TRUE, h
       "Year: %{x:%Y}<br>",
       name_z, " : %{z}",
       "<extra></extra>"
-    ),
+    )
     # hoverlabel = list(bgcolor = "rgba(255,255,255,0.75)"),
-    hidesurface = FALSE # Actual colored surface
     
   ) %>% 
     plotly::layout(
