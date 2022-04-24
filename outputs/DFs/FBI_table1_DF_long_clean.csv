@@ -911,10 +911,10 @@ order;bias_motivation;year;file;name;value;bias_supra
 8;Hispanic/Latino;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;offenses;418;Race/Ethnicity/Ancestry:
 8;Hispanic/Latino;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;victims;432;Race/Ethnicity/Ancestry:
 8;Hispanic/Latino;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;known_offenders;418;Race/Ethnicity/Ancestry:
-8;Not Hispanic/Latino3;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;incidents;324;Race/Ethnicity/Ancestry:
-8;Not Hispanic/Latino3;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;offenses;376;Race/Ethnicity/Ancestry:
-8;Not Hispanic/Latino3;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;victims;389;Race/Ethnicity/Ancestry:
-8;Not Hispanic/Latino3;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;known_offenders;325;Race/Ethnicity/Ancestry:
+8;Other Race/Ethnicity/Ancestry;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;incidents;324;Race/Ethnicity/Ancestry:
+8;Other Race/Ethnicity/Ancestry;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;offenses;376;Race/Ethnicity/Ancestry:
+8;Other Race/Ethnicity/Ancestry;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;victims;389;Race/Ethnicity/Ancestry:
+8;Other Race/Ethnicity/Ancestry;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;known_offenders;325;Race/Ethnicity/Ancestry:
 8;Disability:;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;incidents;83;Disability:
 8;Disability:;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;offenses;92;Disability:
 8;Disability:;2013;data/FBI//2013/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2013.xls;victims;99;Disability:
@@ -1055,10 +1055,10 @@ order;bias_motivation;year;file;name;value;bias_supra
 9;Hispanic/Latino;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;offenses;376;Race/Ethnicity/Ancestry:
 9;Hispanic/Latino;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;victims;389;Race/Ethnicity/Ancestry:
 9;Hispanic/Latino;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;known_offenders;325;Race/Ethnicity/Ancestry:
-9;Not Hispanic/Latino3;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;incidents;349;Race/Ethnicity/Ancestry:
-9;Not Hispanic/Latino3;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;offenses;414;Race/Ethnicity/Ancestry:
-9;Not Hispanic/Latino3;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;victims;432;Race/Ethnicity/Ancestry:
-9;Not Hispanic/Latino3;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;known_offenders;343;Race/Ethnicity/Ancestry:
+9;Other Race/Ethnicity/Ancestry;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;incidents;349;Race/Ethnicity/Ancestry:
+9;Other Race/Ethnicity/Ancestry;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;offenses;414;Race/Ethnicity/Ancestry:
+9;Other Race/Ethnicity/Ancestry;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;victims;432;Race/Ethnicity/Ancestry:
+9;Other Race/Ethnicity/Ancestry;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;known_offenders;343;Race/Ethnicity/Ancestry:
 9;Disability:;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;incidents;84;Disability:
 9;Disability:;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;offenses;95;Disability:
 9;Disability:;2014;data/FBI//2014/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2014.xls;victims;96;Disability:

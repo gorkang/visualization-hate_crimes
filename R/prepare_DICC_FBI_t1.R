@@ -26,7 +26,7 @@ prepare_DICC_FBI_t1 <- function() {
     bias_supra = c("Race/Ethnicity/Ancestry:"),
     bias_motivation = c(
       "Asian/Pacific Islander", # CHECK
-      "Not Hispanic/Latino3", # CHECK
+      "Not Hispanic/Latino", # CHECK
       "White",
       "African American",
       "Black/African American",
