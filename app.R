@@ -50,9 +50,9 @@ ui <- fluidPage(theme = shinytheme("flatly"),
                    # ),
                    shiny::column(width = 2,
                      selectInput(inputId = "bias_selected",
-                                 label = "Bias supra:", 
-                                 choices = c("*", biases), 
-                                 selected = "*", 
+                                 label = "Bias:", 
+                                 choices = c("ALL", "ALL supra categories", biases), 
+                                 selected = "ALL", 
                                  selectize = FALSE,
                                  size = 1), #length(biases) + 2),
                    ),
@@ -118,10 +118,26 @@ server <- function(input, output) {
       output$distPlot <- renderPlotly({
   
         # Data preparation
-        DF_surface = prepare_data_FBI_t1_surface(DF = DF, supra_sub = "sub", filter_bias_supra = input$bias_selected, absolute_relative = input$absolute_relative, arrange_by = input$arrange_by)
+        
+        if (input$bias_selected == "ALL") {
+          bias_selected = "*"
+          supra_sub = "sub"
+        } else if(input$bias_selected == "ALL supra categories") {
+          bias_selected = "*"
+          supra_sub = "supra"
+        } else {
+          bias_selected = input$bias_selected
+          supra_sub = "sub"
+        }
         
         plot_title = gsub(":", "", input$bias_selected)
         if (plot_title == "*") plot_title = "ALL"
+        
+        DF_surface = prepare_data_FBI_t1_surface(DF = DF, supra_sub = supra_sub, filter_bias_supra = bias_selected, absolute_relative = input$absolute_relative, arrange_by = input$arrange_by)
+        
+        if (length(DF_surface) == 0) cli::cli_abort("We don't have relative data for the group selected")
+        # str(DF_surface)
+
   
         # Plot
         plot_FBI_t1_surface(
