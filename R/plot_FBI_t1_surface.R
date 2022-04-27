@@ -31,6 +31,11 @@ plot_FBI_t1_surface <- function(DF, output_suffix, table, save_outputs = TRUE, h
     
     # Visual characteristics
     show_spikes = FALSE # Straight lines. Not very useful if we have highlight
+    showlegend = FALSE
+    showscale = FALSE # legend dissapears
+    hidesurface = FALSE # Actual colored surface
+    connectgaps = FALSE # FILLS NA with 0 # Freezes when overing over NA value
+    
     
     # COLORS
     spike_color = "#111111"
@@ -62,12 +67,12 @@ plot_FBI_t1_surface <- function(DF, output_suffix, table, save_outputs = TRUE, h
     x = ~ x_axis,
     y = ~ y_axis,
     z = ~ z_axis,
-    type = "surface",
-    connectgaps = FALSE, # FILLS NA with 0 # Freezes when overing over NA value
+    # type = "surface",
+    # connectgaps = connectgaps, # FILLS NA with 0 # Freezes when overing over NA value
     
-    showlegend = FALSE,
-    showscale = FALSE, # legend dissapears
-    hidesurface = FALSE, # Actual colored surface
+    showlegend = showlegend,
+    showscale = showscale, # legend dissapears
+    # hidesurface = hidesurface, # Actual colored surface. USED IN add_surface
     
     
     # colorbar = list(title = "Incidents", ticks = "outside"),
@@ -149,32 +154,61 @@ plot_FBI_t1_surface <- function(DF, output_suffix, table, save_outputs = TRUE, h
           # center = list(x = 0, y = 0, z = -0.5), # - up +down
           # up = list(x = 0, y = 0, z = 1) # which up 0/1
           )
-      )
-    ) %>% 
+        )
+      ) %>% 
+      
     
-    # 3D MESH on top of surface
-    # https://plotly.com/r/reference/#surface-hidesurface
-    # show: show 3d mesh
-    # highlight: ADD highlight lines over surface
-    plotly::add_surface(name = " ",
-      contours = list(
-        x = list(show = TRUE,
-                 width = 1,
-                 highlight = TRUE, 
-                 highlightcolor = highlight_color),
-        y = list(show = TRUE,
-                 width = 1,
-                 highlight = TRUE,
-                 highlightcolor = highlight_color,
-                 highlightwidth = 2),
-        z = list(show = FALSE,
-                 width = 1,
-                 highlight = FALSE,
-                 highlightcolor = highlight_color)
-      )
-    ) 
-  
-  
+      #  plotly::add_surface() # ADDS surface
+        # To include 3D MESH on top of surface: contours =
+        # https://plotly.com/r/reference/#surface-hidesurface
+        # show: show 3d mesh
+        # highlight: ADD highlight lines over surface
+      
+      # Surface
+      plotly::add_surface(name = " ",
+                          connectgaps = FALSE, # FILLS NA # Freezes when hovering over NA value
+                          hidesurface = FALSE,
+                          contours = list(
+                            x = list(show = TRUE,
+                                     width = 1,
+                                     highlight = TRUE,
+                                     highlightwidth = 2,
+                                     highlightcolor = highlight_color),
+                            y = list(show = TRUE,
+                                     width = 1,
+                                     highlight = TRUE,
+                                     highlightwidth = 2,
+                                     highlightcolor = highlight_color),
+                            z = list(show = FALSE,
+                                     width = 1,
+                                     highlight = FALSE,
+                                     # highlightwidth = 2,
+                                     highlightcolor = highlight_color)
+                          )
+                        ) %>% 
+        # 3D MESH
+        plotly::add_surface(name = " ",
+                            connectgaps = FALSE, # FILLS NA # Freezes when hovering over NA value
+                            hidesurface = TRUE,
+                            contours = list(
+                              x = list(show = TRUE,
+                                       width = 1,
+                                       highlight = TRUE,
+                                       highlightwidth = 2,
+                                       highlightcolor = highlight_color),
+                              y = list(show = TRUE,
+                                       width = 1,
+                                       highlight = TRUE,
+                                       highlightwidth = 2,
+                                       highlightcolor = highlight_color),
+                              z = list(show = FALSE,
+                                       width = 1,
+                                       highlight = FALSE,
+                                       # highlightwidth = 2,
+                                       highlightcolor = highlight_color)
+                              )
+                            ) 
+    
   PLOT
   
   
