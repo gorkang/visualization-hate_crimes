@@ -160,10 +160,11 @@ prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra
     
   
   # REVIEW: Insert BR to add line jump to long labels
-  DF_wide = insert_BR(DF_wide, name_label = "bias_motivation", where = 16) %>% 
+  DF_wide = DF_wide %>% mutate(bias_motivation_short = bias_motivation)
+    # insert_BR(DF_wide, name_label = "bias_motivation", where = 16) %>% 
     # REVIEW: This gets rid of the change made by insert_BR
     # Once we settle on a bias_motivation_short final value, get rid of this
-    mutate(bias_motivation_short = gsub(" <br> ", " ", bias_motivation_short))
+    # mutate(bias_motivation_short = gsub(" <br> ", " ", bias_motivation_short))
 
   # Matrix ------------------------------------------------------------------
   
