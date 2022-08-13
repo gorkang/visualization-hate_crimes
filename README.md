@@ -2,8 +2,12 @@ Visualizacion datos de encuesta de victimitzación USA (NCVS) y estadística ofi
 
 Shiny app showing FBI Hate crimes by bias motivation (table 1): https://gorkang.shinyapps.io/visualization-hate_crimes/
 
-Fuentes originales: 
+Sources: 
 
 - NCVS: https://bjs.ojp.gov/library/publications/hate-crime-victimization-2005-2019
 
 - UCR Hate Crime Statistics: https://www.fbi.gov/services/cjis/ucr/publications#Hate-Crime%20Statistics
+
+- Census:  https://data.census.gov/cedsci/
+
+- Religion: https://www.pewresearch.org/religion/religious-landscape-study/  
