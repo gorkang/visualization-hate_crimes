@@ -68,8 +68,9 @@ prepare_data_FBI <- function(folder = "data/FBI/", table, keyword, UNZIPPED) {
     all_files = list.files(folder, pattern = "xls", recursive = TRUE, full.names = TRUE) %>% 
       as_tibble() %>% 
       filter(grepl(tables_grep, value)) %>% 
-      mutate(order = as.character(1:nrow(.)), year = 2006:2019, file = value) %>% select(-value)
-    if (length(all_files$file) != 14) cli::cli_abort("We found {length(all_files$file)} files in {folder} looking for table {table}. Should be 14")
+      mutate(order = as.character(1:nrow(.)), year = 2006:2020, file = value) %>% select(-value)
+    
+    # if (length(all_files$file) != 15) cli::cli_abort("We found {length(all_files$file)} files in {folder} looking for table {table}. Should be 15")
     
     skips = tibble(skips = get_key_rows(all_files, keyword = keyword))
     all_files_skips = all_files %>% bind_cols(skips)

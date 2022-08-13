@@ -975,3 +975,71 @@ order;offense_type;year;file;name;value;offense_supra
 14;Crimes against society;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;offenses;236;Crimes against society:
 14;Crimes against society;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;victims;236;Crimes against society:
 14;Crimes against society;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2019.xls;known_offenders;279;Crimes against society:
+15;Total;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;8263;Total
+15;Total;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;11129;Total
+15;Total;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;11472;Total
+15;Total;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;6780;Total
+15;Crimes against persons:;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;5201;Crimes against persons:
+15;Crimes against persons:;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;7750;Crimes against persons:
+15;Crimes against persons:;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;7750;Crimes against persons:
+15;Crimes against persons:;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;5244;Crimes against persons:
+15;Murder and nonnegligent manslaughter;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;20;Crimes against property:
+15;Murder and nonnegligent manslaughter;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;22;Crimes against property:
+15;Murder and nonnegligent manslaughter;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;22;Crimes against property:
+15;Murder and nonnegligent manslaughter;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;22;Crimes against property:
+15;Rape;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;21;Crimes against property:
+15;Rape;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;21;Crimes against property:
+15;Rape;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;21;Crimes against property:
+15;Rape;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;23;Crimes against property:
+15;Aggravated assault;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;1074;Crimes against property:
+15;Aggravated assault;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;1390;Crimes against property:
+15;Aggravated assault;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;1390;Crimes against property:
+15;Aggravated assault;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;1257;Crimes against property:
+15;Simple assault;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;1867;Crimes against property:
+15;Simple assault;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;2166;Crimes against property:
+15;Simple assault;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;2166;Crimes against property:
+15;Simple assault;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;2061;Crimes against property:
+15;Intimidation;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;2190;Crimes against property:
+15;Intimidation;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;4119;Crimes against property:
+15;Intimidation;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;4119;Crimes against property:
+15;Intimidation;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;1853;Crimes against property:
+15;Other;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;29;NA
+15;Other;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;32;NA
+15;Other;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;32;NA
+15;Other;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;28;NA
+15;Crimes against property:;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;3147;Crimes against property:
+15;Crimes against property:;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;3147;Crimes against property:
+15;Crimes against property:;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;3490;Crimes against property:
+15;Crimes against property:;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;1635;Crimes against property:
+15;Robbery;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;140;Crimes against property:
+15;Robbery;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;140;Crimes against property:
+15;Robbery;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;155;Crimes against property:
+15;Robbery;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;228;Crimes against property:
+15;Burglary;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;132;Crimes against property:
+15;Burglary;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;132;Crimes against property:
+15;Burglary;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;152;Crimes against property:
+15;Burglary;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;94;Crimes against property:
+15;Larceny-theft;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;362;Crimes against property:
+15;Larceny-theft;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;362;Crimes against property:
+15;Larceny-theft;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;383;Crimes against property:
+15;Larceny-theft;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;175;Crimes against property:
+15;Motor vehicle theft;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;34;Crimes against property:
+15;Motor vehicle theft;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;34;Crimes against property:
+15;Motor vehicle theft;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;36;Crimes against property:
+15;Motor vehicle theft;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;28;Crimes against property:
+15;Arson;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;67;Crimes against property:
+15;Arson;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;67;Crimes against property:
+15;Arson;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;105;Crimes against property:
+15;Arson;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;38;Crimes against property:
+15;Destruction/damage/vandalism;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;2333;Crimes against property:
+15;Destruction/damage/vandalism;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;2333;Crimes against property:
+15;Destruction/damage/vandalism;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;2574;Crimes against property:
+15;Destruction/damage/vandalism;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;1031;Crimes against property:
+15;Other;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;79;NA
+15;Other;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;79;NA
+15;Other;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;85;NA
+15;Other;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;41;NA
+15;Crimes against society;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;incidents;232;Crimes against society:
+15;Crimes against society;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;offenses;232;Crimes against society:
+15;Crimes against society;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;victims;232;Crimes against society:
+15;Crimes against society;2020;data/FBI//2020/Table_2_Incidents_Offenses_Victims_and_Known_Offenders_by_Offense_Type_2020.xlsx;known_offenders;269;Crimes against society:

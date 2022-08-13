@@ -1,7 +1,8 @@
 plot_FBI_t1_density <- function(DF) {
   
   # color_points = heat.colors(14)
-  color_points = colorspace::sequential_hcl(14)
+  unique_years = length(unique(DF$year))
+  color_points = colorspace::sequential_hcl(unique_years)
   
   
   XX = DF %>% 

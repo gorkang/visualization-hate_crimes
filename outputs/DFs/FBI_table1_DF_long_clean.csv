@@ -1959,3 +1959,175 @@ order;bias_motivation;year;file;name;value;bias_supra
 14;Multiple-Bias:;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2019.xls;offenses;257;Multiple-Bias:
 14;Multiple-Bias:;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2019.xls;victims;260;Multiple-Bias:
 14;Multiple-Bias:;2019;data/FBI//2019/Hate Crime Statistics 2019 Tables/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2019.xls;known_offenders;138;Multiple-Bias:
+15;Total;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;8263;Total
+15;Total;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;11129;Total
+15;Total;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;11472;Total
+15;Total;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;6780;Total
+15;Single-Bias:;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;8052;Single-Bias:
+15;Single-Bias:;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;10790;Single-Bias:
+15;Single-Bias:;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;11126;Single-Bias:
+15;Single-Bias:;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;6657;Single-Bias:
+15;Race/Ethnicity/Ancestry;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;5227;NA
+15;Race/Ethnicity/Ancestry;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;6677;NA
+15;Race/Ethnicity/Ancestry;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;6880;NA
+15;Race/Ethnicity/Ancestry;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;4339;NA
+15;White;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;869;Race/Ethnicity/Ancestry:
+15;White;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;1048;Race/Ethnicity/Ancestry:
+15;White;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;1082;Race/Ethnicity/Ancestry:
+15;White;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;825;Race/Ethnicity/Ancestry:
+15;African American;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;2871;Race/Ethnicity/Ancestry:
+15;African American;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;3819;Race/Ethnicity/Ancestry:
+15;African American;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;3915;Race/Ethnicity/Ancestry:
+15;African American;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;2302;Race/Ethnicity/Ancestry:
+15;American Indian/Alaska Native;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;96;Race/Ethnicity/Ancestry:
+15;American Indian/Alaska Native;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;103;Race/Ethnicity/Ancestry:
+15;American Indian/Alaska Native;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;108;Race/Ethnicity/Ancestry:
+15;American Indian/Alaska Native;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;74;Race/Ethnicity/Ancestry:
+15;Asian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;279;Race/Ethnicity/Ancestry:
+15;Asian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;330;Race/Ethnicity/Ancestry:
+15;Asian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;342;Race/Ethnicity/Ancestry:
+15;Asian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;239;Race/Ethnicity/Ancestry:
+15;Native Hawaiian/Other Pacific Islander;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;15;Race/Ethnicity/Ancestry:
+15;Native Hawaiian/Other Pacific Islander;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;15;Race/Ethnicity/Ancestry:
+15;Native Hawaiian/Other Pacific Islander;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;18;Race/Ethnicity/Ancestry:
+15;Native Hawaiian/Other Pacific Islander;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;12;Race/Ethnicity/Ancestry:
+15;Multiple Races, Group;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;211;Race/Ethnicity/Ancestry:
+15;Multiple Races, Group;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;270;Race/Ethnicity/Ancestry:
+15;Multiple Races, Group;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;281;Race/Ethnicity/Ancestry:
+15;Multiple Races, Group;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;114;Race/Ethnicity/Ancestry:
+15;Arab;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;71;Race/Ethnicity/Ancestry:
+15;Arab;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;85;Race/Ethnicity/Ancestry:
+15;Arab;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;87;Race/Ethnicity/Ancestry:
+15;Arab;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;52;Race/Ethnicity/Ancestry:
+15;Hispanic/Latino;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;517;Race/Ethnicity/Ancestry:
+15;Hispanic/Latino;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;664;Race/Ethnicity/Ancestry:
+15;Hispanic/Latino;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;693;Race/Ethnicity/Ancestry:
+15;Hispanic/Latino;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;525;Race/Ethnicity/Ancestry:
+15;Other Race/Ethnicity/Ancestry;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;298;Race/Ethnicity/Ancestry:
+15;Other Race/Ethnicity/Ancestry;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;343;Race/Ethnicity/Ancestry:
+15;Other Race/Ethnicity/Ancestry;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;354;Race/Ethnicity/Ancestry:
+15;Other Race/Ethnicity/Ancestry;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;196;Race/Ethnicity/Ancestry:
+15;Religion;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;1244;NA
+15;Religion;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;1402;NA
+15;Religion;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;1481;NA
+15;Religion;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;814;NA
+15;Jewish;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;683;Religion:
+15;Jewish;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;794;Religion:
+15;Jewish;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;831;Religion:
+15;Jewish;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;401;Religion:
+15;Catholic;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;73;Religion:
+15;Catholic;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;77;Religion:
+15;Catholic;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;80;Religion:
+15;Catholic;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;47;Religion:
+15;Protestant;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;30;Religion:
+15;Protestant;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;31;Religion:
+15;Protestant;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;32;Religion:
+15;Protestant;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;26;Religion:
+15;Islamic (Muslim);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;110;Religion:
+15;Islamic (Muslim);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;126;Religion:
+15;Islamic (Muslim);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;131;Religion:
+15;Islamic (Muslim);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;126;Religion:
+15;Other Religion;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;76;Religion:
+15;Other Religion;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;85;Religion:
+15;Other Religion;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;105;Religion:
+15;Other Religion;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;44;Religion:
+15;Multiple Religions, Group;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;40;Religion:
+15;Multiple Religions, Group;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;44;Religion:
+15;Multiple Religions, Group;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;49;Religion:
+15;Multiple Religions, Group;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;19;Religion:
+15;Mormon;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;7;Religion:
+15;Mormon;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;8;Religion:
+15;Mormon;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;8;Religion:
+15;Mormon;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;7;Religion:
+15;Jehovah's Witness;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;9;Religion:
+15;Jehovah's Witness;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;10;Religion:
+15;Jehovah's Witness;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;10;Religion:
+15;Jehovah's Witness;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;3;Religion:
+15;Eastern Orthodox (Russian, Greek, Other);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;43;Religion:
+15;Eastern Orthodox (Russian, Greek, Other);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;43;Religion:
+15;Eastern Orthodox (Russian, Greek, Other);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;43;Religion:
+15;Eastern Orthodox (Russian, Greek, Other);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;30;Religion:
+15;Other Christian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;50;Religion:
+15;Other Christian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;56;Religion:
+15;Other Christian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;62;Religion:
+15;Other Christian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;27;Religion:
+15;Buddist;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;15;NA
+15;Buddist;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;16;NA
+15;Buddist;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;16;NA
+15;Buddist;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;14;NA
+15;Hindu;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;11;Religion:
+15;Hindu;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;11;Religion:
+15;Hindu;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;11;Religion:
+15;Hindu;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;6;Religion:
+15;Sikh;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;89;Religion:
+15;Sikh;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;93;Religion:
+15;Sikh;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;94;Religion:
+15;Sikh;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;59;Religion:
+15;Atheism/Agnosticism/etc.;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;8;Religion:
+15;Atheism/Agnosticism/etc.;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;8;Religion:
+15;Atheism/Agnosticism/etc.;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;9;Religion:
+15;Atheism/Agnosticism/etc.;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;5;Religion:
+15;Sexual Orientation;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;1110;NA
+15;Sexual Orientation;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;2185;NA
+15;Sexual Orientation;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;2229;NA
+15;Sexual Orientation;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;1043;NA
+15;Gay (Male);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;673;Sexual Orientation:
+15;Gay (Male);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;770;Sexual Orientation:
+15;Gay (Male);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;791;Sexual Orientation:
+15;Gay (Male);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;680;Sexual Orientation:
+15;Lesbian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;103;Sexual Orientation:
+15;Lesbian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;1021;Sexual Orientation:
+15;Lesbian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;1026;Sexual Orientation:
+15;Lesbian;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;89;Sexual Orientation:
+15;Lesbian, Gay, Bisexual,/Transgender (Mixed Group);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;306;Sexual Orientation:
+15;Lesbian, Gay, Bisexual,/Transgender (Mixed Group);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;363;Sexual Orientation:
+15;Lesbian, Gay, Bisexual,/Transgender (Mixed Group);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;380;Sexual Orientation:
+15;Lesbian, Gay, Bisexual,/Transgender (Mixed Group);2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;250;Sexual Orientation:
+15;Heterosexual;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;11;Sexual Orientation:
+15;Heterosexual;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;12;Sexual Orientation:
+15;Heterosexual;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;13;Sexual Orientation:
+15;Heterosexual;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;10;Sexual Orientation:
+15;Bisexual;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;17;Sexual Orientation:
+15;Bisexual;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;19;Sexual Orientation:
+15;Bisexual;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;19;Sexual Orientation:
+15;Bisexual;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;14;Sexual Orientation:
+15;Disability;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;130;NA
+15;Disability;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;151;NA
+15;Disability;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;152;NA
+15;Disability;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;117;NA
+15;Physical;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;53;Disability:
+15;Physical;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;60;Disability:
+15;Physical;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;60;Disability:
+15;Physical;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;47;Disability:
+15;Mental;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;77;Disability:
+15;Mental;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;91;Disability:
+15;Mental;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;92;Disability:
+15;Mental;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;70;Disability:
+15;Gender;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;75;NA
+15;Gender;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;81;NA
+15;Gender;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;82;NA
+15;Gender;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;65;NA
+15;Male;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;25;Gender:
+15;Male;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;25;Gender:
+15;Male;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;25;Gender:
+15;Male;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;24;Gender:
+15;Female;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;50;Gender:
+15;Female;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;56;Gender:
+15;Female;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;57;Gender:
+15;Female;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;41;Gender:
+15;Gender Identity;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;266;NA
+15;Gender Identity;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;294;NA
+15;Gender Identity;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;302;NA
+15;Gender Identity;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;279;NA
+15;Transgender;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;213;Gender Identity:
+15;Transgender;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;237;Gender Identity:
+15;Transgender;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;244;Gender Identity:
+15;Transgender;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;226;Gender Identity:
+15;Gender Non-Conforming;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;53;Gender Identity:
+15;Gender Non-Conforming;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;57;Gender Identity:
+15;Gender Non-Conforming;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;58;Gender Identity:
+15;Gender Non-Conforming;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;53;Gender Identity:
+15;Multiple-Bias:;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;incidents;211;Multiple-Bias:
+15;Multiple-Bias:;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;offenses;339;Multiple-Bias:
+15;Multiple-Bias:;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;victims;346;Multiple-Bias:
+15;Multiple-Bias:;2020;data/FBI//2020/Table_1_Incidents_Offenses_Victims_and_Known_Offenders_by_Bias_Motivation_2020.xlsx;known_offenders;123;Multiple-Bias:
