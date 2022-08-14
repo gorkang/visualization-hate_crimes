@@ -1,5 +1,6 @@
-prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra, filter_bias_motivation, absolute_relative = "absolute", arrange_by = "mean_value") {
+prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra, filter_bias_motivation, absolute_relative = "absolute", arrange_by = "mean_value", variable = "victims") {
   
+  DF %>% count(name)
   # DEBUG
     # DF = DF_FBI_t1
     # supra_sub = "sub"
@@ -57,7 +58,7 @@ prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra
       filter(!bias_motivation %in% c("Total", "Single-Bias")) %>% # Avoid total categories (Multiple-bias does not contain anything)
       # filter(!bias_motivation %in% c("Asian/Pacific Islander", "Asian", "Native Hawaiian/Other Pacific Islander", "Arab")) %>% 
       # filter(bias_motivation %in% num_years_filter$bias_motivation) %>%
-      filter(name == "incidents")
+      filter(name == variable) # incidents, victims...
     
   } else if (!is.null(filter_bias_motivation)) {
     DF_filtered = 
@@ -71,7 +72,7 @@ prepare_data_FBI_t1_surface <- function(DF, supra_sub = "sub", filter_bias_supra
       filter(!bias_motivation %in% c("Total", "Single-Bias")) %>% # Avoid total categories (Multiple-bias does not contain anything)
       filter(!bias_motivation %in% c("Asian/Pacific Islander", "Asian", "Native Hawaiian/Other Pacific Islander")) %>% #, "Arab"
       filter(bias_motivation %in% num_years_filter$bias_motivation) %>%
-      filter(name == "incidents")
+      filter(name == variable) # incidents, victims...
     
   }
   

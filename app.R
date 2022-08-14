@@ -19,6 +19,7 @@
     count(bias_supra) %>% filter(n > 1) %>% 
     pull(bias_supra)
 
+  variables = DF %>% distinct(name) %>% pull(name)
 
 
 # Shiny app ---------------------------------------------------------------
@@ -57,14 +58,23 @@ ui <- fluidPage(theme = shinytheme("flatly"),
                                  size = 1), #length(biases) + 2),
                    ),
                    
-                   shiny::column(width = 2,
+                   shiny::column(width = 1,
+                                 selectInput(inputId = "variable",
+                                             label = "Variable:", 
+                                             choices = c("victims", variables), 
+                                             selected = "victims", 
+                                             selectize = FALSE,
+                                             size = 1), #length(biases) + 2),
+                   ),
+                   
+                   shiny::column(width = 1,
                      selectInput(inputId = "arrange_by",
                                  label = "Arrange by:", 
                                  choices = c("bias_motivation", "bias_supra", "mean_value"), 
                                  selected = "mean_value"),
                      
                    ),
-                   shiny::column(width = 2,
+                   shiny::column(width = 1,
                      selectInput(inputId = "colorscale",
                                  label = "Colorscale:", 
                                  choices = c("Viridis", "Blackbody","Bluered","Blues","Cividis","Earth","Electric","Greens","Greys","Hot","Jet","Picnic","Portland","Rainbow","RdBu","Reds","YlGnBu","YlOrRd"), 
@@ -133,7 +143,7 @@ server <- function(input, output) {
         plot_title = gsub(":", "", input$bias_selected)
         if (plot_title == "*") plot_title = "ALL"
         
-        DF_surface = prepare_data_FBI_t1_surface(DF = DF, supra_sub = supra_sub, filter_bias_supra = bias_selected, absolute_relative = input$absolute_relative, arrange_by = input$arrange_by)
+        DF_surface = prepare_data_FBI_t1_surface(DF = DF, supra_sub = supra_sub, filter_bias_supra = bias_selected, absolute_relative = input$absolute_relative, arrange_by = input$arrange_by, variable = input$variable)
         
         if (length(DF_surface) == 0) cli::cli_abort("We don't have relative data for the group selected")
         # str(DF_surface)

@@ -1,7 +1,7 @@
 plot_FBI_t1_surface <- function(DF, output_suffix, table, save_outputs = TRUE, height = NULL, width = NULL, colorscale = "Viridis", absolute_relative = "absolute") {
   
   # DEBUG
-  # DF = DF_matrix
+  # DF = DF_FBI_t1_surface_ALL
   
   # targets::tar_load(DF_FBI_t1_surface_sexual)
   # DF = DF_FBI_t1_surface_sexual

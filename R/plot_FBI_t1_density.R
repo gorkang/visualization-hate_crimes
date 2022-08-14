@@ -8,7 +8,7 @@ plot_FBI_t1_density <- function(DF) {
   XX = DF %>% 
     filter(!grepl(":", bias_motivation)) %>% 
     filter(!bias_motivation %in% c("Total", "Single-Bias Incidents")) %>% 
-    filter(name == "incidents") %>% 
+    filter(name == "victims") %>% 
     mutate(year = as.character(year))
   # filter(!bias_motivation %in% c("Disability:"))
   

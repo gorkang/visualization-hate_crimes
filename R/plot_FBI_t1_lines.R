@@ -1,7 +1,9 @@
 plot_FBI_t1_lines <- function(DF) {
   
   # DF = DF_FBI_t1
-  whitelist = DF %>% count(bias_motivation, name) %>% filter(n > 6) %>% distinct(bias_motivation)# count(n)
+  whitelist = DF %>% count(bias_motivation, name) %>% 
+    filter(n > 6) %>% 
+    distinct(bias_motivation)# count(n)
   
   plot_time <- function(DF) {
     DF %>% 
@@ -27,7 +29,8 @@ plot_FBI_t1_lines <- function(DF) {
   ggsave("outputs/PLOTs/plot_FBI_table1_general.png", PLOT_general, dpi = 300, width = 16, height = 9)
   ggsave("outputs/PLOTs/plot_FBI_table1_specific.png", PLOT_specific, dpi = 300, width = 20, height = 12)
   
-  PLOTS = list(PLOT_general = PLOT_general,
+  PLOTS = list(
+    # PLOT_general = PLOT_general,
                PLOT_specific = PLOT_specific)
   
   return(PLOTS)

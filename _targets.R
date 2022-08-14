@@ -57,8 +57,18 @@ targets <- list(
   tar_target(DF_FBI_t1_raw, prepare_data_FBI(folder = "data/FBI/", table = 1, keyword = "Bias motivation", UNZIPPED = UNZIP_FBI)),
   tar_target(DF_FBI_t2_raw, prepare_data_FBI(folder = "data/FBI/", table = 2, keyword = "Offense type", UNZIPPED = UNZIP_FBI)),
   
-  tar_target(DF_FBI_t1, prepare_t1(DF = DF_FBI_t1_raw, diccionary = DICC_FBI_t1)),
+  tar_target(DF_FBI_t1_API_raw, get_API_data(API_key)), # Set API_key in .Rprofile
+             
+
+  # tar_target(DF_FBI_t1_table, prepare_t1(DF_table = DF_FBI_t1_raw, DF_api = DF_FBI_t1_API_raw, diccionary = DICC_FBI_t1,
+  #                                  method = "table")),
+  
+  tar_target(DF_FBI_t1, prepare_t1(DF_table = DF_FBI_t1_raw, DF_api = DF_FBI_t1_API_raw, diccionary = DICC_FBI_t1, 
+                                   method = "api")),
+
+  
   tar_target(DF_FBI_t2, prepare_t2(DF = DF_FBI_t2_raw, diccionary = DICC_FBI_t2)),
+  
   
   
   ## NCVS READ TABLES -------------------------------------------------------
@@ -76,13 +86,13 @@ targets <- list(
   
   
   # Surface plots Data preparation
-  tar_target(DF_FBI_t1_surface_ALL, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "*")),
-  tar_target(DF_FBI_t1_surface_ALL_supra, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "supra", filter_bias_supra = "*")),
-  tar_target(DF_FBI_t1_surface_sexual, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Sexual Orientation:")),
-  tar_target(DF_FBI_t1_surface_religion, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Religion:")),
-  tar_target(DF_FBI_t1_surface_gender, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Gender:")),
-  tar_target(DF_FBI_t1_surface_GenderIdentity, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Gender Identity:")),
-  tar_target(DF_FBI_t1_surface_race, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Race/Ethnicity/Ancestry:")),
+  tar_target(DF_FBI_t1_surface_ALL, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "*", variable = "victims")),
+  tar_target(DF_FBI_t1_surface_ALL_supra, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "supra", filter_bias_supra = "*", variable = "victims")),
+  tar_target(DF_FBI_t1_surface_sexual, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Sexual Orientation:", variable = "victims")),
+  tar_target(DF_FBI_t1_surface_religion, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Religion:", variable = "victims")),
+  tar_target(DF_FBI_t1_surface_gender, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Gender:", variable = "victims")),
+  tar_target(DF_FBI_t1_surface_GenderIdentity, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Gender Identity:", variable = "victims")),
+  tar_target(DF_FBI_t1_surface_race, prepare_data_FBI_t1_surface(DF = DF_FBI_t1, supra_sub = "sub", filter_bias_supra = "Race/Ethnicity/Ancestry:", variable = "victims")),
   
   tar_target(DF_FBI_t2_surface_ALL, prepare_data_FBI_t2_surface(DF = DF_FBI_t2, supra_sub = "sub", filter_offense_supra = "*")),
   

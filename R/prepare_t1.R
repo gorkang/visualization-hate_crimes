@@ -1,13 +1,25 @@
-prepare_t1 <- function(DF, diccionary) {
+prepare_t1 <- function(DF_table, DF_api, diccionary, method = "table") {
   
   # DEBUG
   # DF = DF_FBI_t1_raw
   # diccionary = DICC_FBI_t1
   # DF_long %>% distinct(bias_motivation) %>% View
   
+
+  # Select DF  
+  if (method == "table"){
+    DF = DF_table
+  } else {
+    DF = DF_api
+  }
+  
+  # To long
   DF_long = DF %>% pivot_longer(cols = incidents:known_offenders) %>% drop_na(value)
   
-  DF_long_clean = DF_long  %>% 
+  
+  # Homogenize, add use dictionary
+
+  DF_long_clean = DF_long  %>%
     mutate(
       year = as.integer(year),
       bias_motivation = gsub("Anti-", "", bias_motivation),
@@ -32,6 +44,8 @@ prepare_t1 <- function(DF, diccionary) {
                
               # Religion:
               grepl("^Islamic$", bias_motivation) ~ gsub("Islamic", "Islamic (Muslim)", bias_motivation),
+              grepl("Atheism/Agnosticism", bias_motivation) ~ "Atheism/Agnosticism/etc.",
+              grepl("Jehovahs Witness", bias_motivation) ~ "Jehovah's Witness",
               
               
               # Sexual Orientation:
@@ -39,11 +53,15 @@ prepare_t1 <- function(DF, diccionary) {
                 grepl("^Homosexual$", bias_motivation) ~ "Lesbian, Gay, Bisexual,/Transgender (Mixed Group)",
                 grepl("Male Homosexual", bias_motivation) ~ "Gay (Male)",
                 grepl("Female Homosexual", bias_motivation) ~ "Lesbian",
+              
+                grepl("Lesbian \\(Female\\)", bias_motivation) ~ "Lesbian",
+              
+              
                  
                
               # Disability:
-                 # Physical
-                 # Mental
+              grepl("Physical Disability", bias_motivation) ~ "Physical",
+              grepl("Mental Disability", bias_motivation) ~ "Mental",
                
               # Gender:
               # Gender Identity:
@@ -67,6 +85,28 @@ prepare_t1 <- function(DF, diccionary) {
     # Join DICCIONARY to get supra categories
     left_join(diccionary, by = "bias_motivation") %>% 
     select(-skips) #%>% select(year, bias_motivation,bias_motivation2)
+  
+    # Missing
+    # DF_long_clean %>% filter(is.na(bias_supra)) %>% distinct(bias_motivation)
+    
+     
+
+# API ---------------------------------------------------------------------
+
+  if (method != "table") {
+    
+    DF_long_clean = DF_long_clean |> 
+      bind_rows(
+        DF_long_clean |> 
+        group_by(bias_supra, year, name) |> 
+        summarise(value = sum(value),
+                  bias_motivation = unique(bias_supra),
+                  file = "api",
+                  order = 1, .groups = "drop") |> 
+        select(order, bias_motivation, year, file, name, value, bias_supra)
+      )
+    
+  }  
   
   
   
