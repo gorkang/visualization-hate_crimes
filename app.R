@@ -9,6 +9,7 @@
   library(shiny)
   library(shinythemes)
   library(tidyr)
+  library(tibble)
   
   lapply(list.files(here::here("R"), full.names = TRUE, pattern = ".R$"), source)
   
